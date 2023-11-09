@@ -5,6 +5,7 @@ from pathlib import Path
 
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.model_selection import GridSearchCV
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 
 # Import common functions from the classifier_base module
@@ -17,6 +18,28 @@ def train_model(features_train, target_train):
     model = DecisionTreeClassifier(random_state=42)
     model.fit(features_train, target_train)
     return model
+
+
+def train_model_with_grid_search(features_train, target_train):
+    # Define the parameter grid to search over
+    param_grid = {
+        'criterion': ['gini', 'entropy'],
+        'max_depth': [None, 10, 20, 30],
+        'min_samples_split': [2, 5, 10],
+        'min_samples_leaf': [1, 2, 4],
+    }
+
+    # Initialize the DecisionTreeClassifier
+    dtree = DecisionTreeClassifier(random_state=42)
+
+    # Initialize the GridSearchCV object
+    grid_search = GridSearchCV(dtree, param_grid, cv=5, scoring='accuracy', n_jobs=-1, verbose=1)
+
+    # Fit GridSearchCV
+    grid_search.fit(features_train, target_train)
+
+    # Return the best model found
+    return grid_search.best_estimator_, grid_search.best_params_, grid_search.best_score_
 
 
 def plot_tree_diagram(model, feature_columns, class_encoder, file_path):
@@ -84,7 +107,11 @@ if __name__ == "__main__":
         features_train, features_test, target_train, target_test = split_dataset(features, target, test_size=0.3)
 
         # Train the Decision Tree model
-        model = train_model(features_train, target_train)
+        model, best_params, best_score = train_model_with_grid_search(features_train, target_train)
+
+        # Print out the best parameters and best score from Grid Search
+        print(f"Best parameters: {best_params}")
+        print(f"Best score from Grid Search: {best_score}")
 
         # Get decision path for a specific sample
         sample_id = 0  # You can change this to any valid index of a sample in X_test
