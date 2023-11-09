@@ -1,29 +1,14 @@
 import argparse
 import random
+import yaml
 
 import pandas as pd
 import numpy as np
 
-# Load the CSV file into a DataFrame
-csv_file_path = '/workspaces/UnderWater-Decision/data/excel/All.csv'
-real_data_df = pd.read_csv(csv_file_path)
 
-# Define thresholds for fouling characteristics
-HARD_PERCENTAGE_THRESHOLD = 50
-HARD_THICKNESS_THRESHOLD = 30
-SOFT_PERCENTAGE_THRESHOLD = 50
-SOFT_THICKNESS_THRESHOLD = 50
-
-# Constants for depth thresholds and coverage percentages
-SHALLOW_DEPTH_UPPER_BOUND = 0
-SHALLOW_DEPTH_LOWER_BOUND = -10
-MID_DEPTH_UPPER_BOUND = -25
-MID_DEPTH_LOWER_BOUND = -35
-DEEP_DEPTH_LOWER_BOUND = -40
-MAX_COVERAGE_PERCENTAGE = 90
-SHALLOW_DEPTH_COVERAGE_RANGE = (5, 11)
-DEEP_DEPTH_COVERAGE_RANGE = (70, 91)
-GENERIC_COVERAGE_RANGE = (5, 91)
+def read_config(config_path):
+    with open(config_path, 'r') as stream:
+        return yaml.safe_load(stream)
 
 
 def determine_cleaning_method(hard_perc, hard_mm, soft_perc, soft_mm):
@@ -143,6 +128,10 @@ def get_args():
                         type=str,
                         default='/workspaces/UnderWater-Decision/data/default_synthetic_dataset.csv',
                         help='The path where the synthetic dataset CSV will be saved.')
+    parser.add_argument('--config', '-c',
+                        type=str,
+                        default='/workspaces/UnderWater-Decision/underwater-decision/data_config.yaml',
+                        help='The path where the configuration file for the dataset.')
     parser.add_argument('--num_entries', '-n',
                         type=int,
                         default=100,
@@ -152,6 +141,27 @@ def get_args():
 
 if __name__ == "__main__":
     args = get_args()
+
+    # Load the configuration
+    config_file_path = args.config
+    config = read_config(config_file_path)
+
+    # Constants loaded from the YAML config file
+    HARD_PERCENTAGE_THRESHOLD = config['fouling_thresholds']['hard_percentage']
+    HARD_THICKNESS_THRESHOLD = config['fouling_thresholds']['hard_thickness']
+    SOFT_PERCENTAGE_THRESHOLD = config['fouling_thresholds']['soft_percentage']
+    SOFT_THICKNESS_THRESHOLD = config['fouling_thresholds']['soft_thickness']
+
+    SHALLOW_DEPTH_UPPER_BOUND = config['depth_thresholds']['shallow_upper_bound']
+    SHALLOW_DEPTH_LOWER_BOUND = config['depth_thresholds']['shallow_lower_bound']
+    MID_DEPTH_UPPER_BOUND = config['depth_thresholds']['mid_upper_bound']
+    MID_DEPTH_LOWER_BOUND = config['depth_thresholds']['mid_lower_bound']
+    DEEP_DEPTH_LOWER_BOUND = config['depth_thresholds']['deep_lower_bound']
+
+    MAX_COVERAGE_PERCENTAGE = config['coverage_percentages']['max_coverage']
+    SHALLOW_DEPTH_COVERAGE_RANGE = tuple(config['coverage_percentages']['shallow_coverage_range'])
+    DEEP_DEPTH_COVERAGE_RANGE = tuple(config['coverage_percentages']['deep_coverage_range'])
+    GENERIC_COVERAGE_RANGE = tuple(config['coverage_percentages']['generic_coverage_range'])
 
     csv_file_path = args.csv_file_path
     synthetic_dataset_path = args.synthetic_dataset_path

@@ -1,0 +1,19 @@
+
+fouling_thresholds:
+  hard_percentage: 50
+  hard_thickness: 30
+  soft_percentage: 50
+  soft_thickness: 50
+
+depth_thresholds:
+  shallow_upper_bound: 0
+  shallow_lower_bound: -10
+  mid_upper_bound: -25
+  mid_lower_bound: -35
+  deep_lower_bound: -40
+
+coverage_percentages:
+  max_coverage: 90
+  shallow_coverage_range: [5, 11]
+  deep_coverage_range: [70, 91]
+  generic_coverage_range: [5, 91]
