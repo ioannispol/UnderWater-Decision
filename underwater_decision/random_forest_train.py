@@ -10,6 +10,7 @@ from classifier_base import (load_dataset, encode_columns, get_features_target,
                              print_and_save_output, save_model)
 
 
+# TODO: Use classes to encapsulate the functionality of the model
 def train_model(features_train, target_train):
     model = RandomForestClassifier(random_state=42)
     model.fit(features_train, target_train)
