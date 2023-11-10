@@ -15,7 +15,8 @@ setup(
         'torch ~= 2.0',
         'torchvision',
         'opencv-python <=4.8.0.74',
-        'gradio'
+        'gradio',
+        'dowhy',
     ],
     extras_require={
         'dev': [
