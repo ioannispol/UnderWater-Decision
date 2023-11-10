@@ -7,7 +7,7 @@ This is my package.
 
  ##Downlaod the package from GitHub and run the following command:
 
-```git clone git@github.com:Tulpa-ai/UnderWater-Decision.git```
+```git clone git@github.com:ioannispol/UnderWater-Decision.git```
 ### Include submodules
 
-```git clone --recurse-submodules git@github.com:Tulpa-ai/UnderWater-Decision.git```
+```git clone --recurse-submodules git@github.com:ioannispol/UnderWater-Decision.git```
