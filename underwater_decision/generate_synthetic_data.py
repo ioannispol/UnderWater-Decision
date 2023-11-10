@@ -11,6 +11,11 @@ def read_config(config_path):
         return yaml.safe_load(stream)
 
 
+def normalize_weights(weights):
+    total = sum(weights)
+    return [float(w) / total for w in weights]
+
+
 def determine_cleaning_method(hard_perc, hard_mm, soft_perc, soft_mm):
     """
     Determines the cleaning method based on the fouling characteristics.
@@ -26,7 +31,7 @@ def determine_cleaning_method(hard_perc, hard_mm, soft_perc, soft_mm):
     """
 
     # Mechanical cleaning for severe hard fouling
-    if hard_perc >= 75 or hard_mm >= 50:
+    if hard_perc >= 85 or hard_mm >= 60:
         return 'Mechanical cleaning methods'
 
     # High-pressure water jetting for severe soft fouling
@@ -73,7 +78,76 @@ def area_coverage_by_fouling_and_depth(hard_perc: int, soft_perc: int, depth: in
     return min(max(hard_perc, soft_perc), random.randint(*GENERIC_COVERAGE_RANGE))
 
 
+def adjust_and_normalize_weights(weights, expected_length):
+    if len(weights) > expected_length:
+        weights = weights[:expected_length]
+    elif len(weights) < expected_length:
+        weights.extend([weights[-1]] * (expected_length - len(weights)))
+    return normalize_weights(weights)
+
+
 # Modify the synthetic data generation function to ensure all growth values are integers
+def initialize_and_normalize_weights(real_df):
+    # Weight definitions
+    hard_perc_weights = [0.01] * 50 + [0.005] * 50 + [0.0025] * 1
+    hard_mm_weights = [0.01] * 30 + [0.005] * 20 + [0.0025] * 50
+    soft_perc_weights = [0.005] * 75 + [0.01] * 25
+    soft_mm_weights = [0.005] * 75 + [0.01] * 25
+
+    # Adjust and normalize weights
+    max_hard_mm = int(real_df['hardmm'].dropna().max()) + 1
+    max_soft_mm = int(real_df['softmm'].dropna().max()) + 1
+
+    return (adjust_and_normalize_weights(hard_perc_weights, 101),
+            adjust_and_normalize_weights(hard_mm_weights, max_hard_mm),
+            adjust_and_normalize_weights(soft_perc_weights, 101),
+            adjust_and_normalize_weights(soft_mm_weights, max_soft_mm))
+
+
+def select_fouling_characteristics(hard_perc_weights, hard_mm_weights, soft_perc_weights,
+                                   soft_mm_weights, max_hard_mm, max_soft_mm):
+    hard_perc = np.random.choice(range(101), p=hard_perc_weights)
+    hard_mm = np.random.choice(range(max_hard_mm), p=hard_mm_weights)
+    soft_perc = np.random.choice(range(101), p=soft_perc_weights)
+    soft_mm = np.random.choice(range(max_soft_mm), p=soft_mm_weights)
+    return hard_perc, hard_mm, soft_perc, soft_mm
+
+
+def generate_single_entry(platforms, years, depthmins,
+                          depthmaxs, items, hard_perc_weights,
+                          hard_mm_weights, soft_perc_weights, soft_mm_weights,
+                          max_hard_mm, max_soft_mm):
+    platform = np.random.choice(platforms)
+    year = int(np.random.choice(years))
+    depthmin = np.random.choice(depthmins)
+    depthmax = np.random.choice(depthmaxs)
+    item = np.random.choice(items)
+
+    hard_perc, hard_mm, soft_perc, soft_mm = select_fouling_characteristics(hard_perc_weights,
+                                                                            hard_mm_weights,
+                                                                            soft_perc_weights,
+                                                                            soft_mm_weights,
+                                                                            max_hard_mm, max_soft_mm)
+
+    avg_depth = (depthmin + depthmax) // 2
+    total_area_coverage = area_coverage_by_fouling_and_depth(hard_perc, soft_perc, avg_depth)
+    cleaning_method = determine_cleaning_method(hard_perc, hard_mm, soft_perc, soft_mm)
+
+    return {
+        "platform": platform,
+        "year": year,
+        "depthmin": depthmin,
+        "depthmax": depthmax,
+        "item": item,
+        "hardPerc": hard_perc,
+        "hardmm": hard_mm,
+        "softPerc": soft_perc,
+        "softmm": soft_mm,
+        "Total_Area_Coverage": total_area_coverage,
+        "Recommended_Cleaning_Method": cleaning_method
+    }
+
+
 def generate_synthetic_data(real_df, num_entries):
     synthetic_data = []
     platforms = real_df['platform'].unique()
@@ -82,35 +156,15 @@ def generate_synthetic_data(real_df, num_entries):
     depthmaxs = real_df['depthmax'].dropna().astype(int).unique()
     items = real_df['Item'].unique()
 
+    hard_perc_weights, hard_mm_weights, soft_perc_weights, soft_mm_weights = initialize_and_normalize_weights(real_df)
+    max_hard_mm = int(real_df['hardmm'].dropna().max()) + 1  # Calculate max_hard_mm
+    max_soft_mm = int(real_df['softmm'].dropna().max()) + 1  # Calculate max_soft_mm
+
     for _ in range(num_entries):
-        platform = np.random.choice(platforms)
-        year = int(np.random.choice(years))
-        depthmin = np.random.choice(depthmins)
-        depthmax = np.random.choice(depthmaxs)
-        item = np.random.choice(items)
-        hard_perc = np.random.randint(0, 101)
-        hard_mm = np.random.randint(0, int(real_df['hardmm'].dropna().max()) + 1)
-        soft_perc = np.random.randint(0, 101 - hard_perc)
-        soft_mm = np.random.randint(0, int(real_df['softmm'].dropna().max()) + 1)
-        # Use the average depth for coverage calculation
-        avg_depth = (depthmin + depthmax) // 2
-        total_area_coverage = area_coverage_by_fouling_and_depth(hard_perc, soft_perc, avg_depth)
-
-        cleaning_method = determine_cleaning_method(hard_perc, hard_mm, soft_perc, soft_mm)
-
-        synthetic_data.append({
-            "platform": platform,
-            "year": year,
-            "depthmin": depthmin,
-            "depthmax": depthmax,
-            "item": item,
-            "hardPerc": hard_perc,
-            "hardmm": hard_mm,
-            "softPerc": soft_perc,
-            "softmm": soft_mm,
-            "Total_Area_Coverage": total_area_coverage,
-            "Recommended_Cleaning_Method": cleaning_method
-        })
+        entry = generate_single_entry(platforms, years, depthmins, depthmaxs, items,
+                                      hard_perc_weights, hard_mm_weights, soft_perc_weights,
+                                      soft_mm_weights, max_hard_mm, max_soft_mm)
+        synthetic_data.append(entry)
 
     return pd.DataFrame(synthetic_data)
 
@@ -130,7 +184,7 @@ def get_args():
                         help='The path where the synthetic dataset CSV will be saved.')
     parser.add_argument('--config', '-c',
                         type=str,
-                        default='/workspaces/UnderWater-Decision/underwater-decision/data_config.yaml',
+                        default='/workspaces/UnderWater-Decision/underwater_decision/data_config.yaml',
                         help='The path where the configuration file for the dataset.')
     parser.add_argument('--num_entries', '-n',
                         type=int,
@@ -168,6 +222,8 @@ if __name__ == "__main__":
     num_entries = args.num_entries
 
     real_data_df = pd.read_csv(csv_file_path)
+    hard_perc_weights, hard_mm_weights, soft_perc_weights, soft_mm_weights = \
+        initialize_and_normalize_weights(real_df=real_data_df)
 
     synthetic_dataset = generate_synthetic_data(real_data_df, num_entries)
 
