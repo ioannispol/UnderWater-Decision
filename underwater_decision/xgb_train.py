@@ -77,7 +77,7 @@ def plot_learning_curve(estimator, title, X, y, cv=None, n_jobs=None, train_size
 
 def get_args():
     parser = argparse.ArgumentParser(description="Train and evaluate an XGBoost classifier.")
-    parser.add_argument("--data_file", "-d", type=str, default="default_synthetic_dataset.csv",
+    parser.add_argument("--data_file", "-d", type=str, default="default_synthetic_dataset1.csv",
                         help="Filename of the dataset.")
     parser.add_argument("--model_file", "-m", type=str, default="xgboost_model.pkl",
                         help="Filename to save the trained model.")
@@ -94,7 +94,7 @@ def get_args():
     args = parser.parse_args()
 
     # Construct full file paths
-    data_dir = Path('/workspaces/UnderWater-Decision/data/')
+    data_dir = Path('data/')
     args.data_file = data_dir / args.data_file
     args.model_file = data_dir / args.model_file
     args.performance_file = data_dir / args.performance_file

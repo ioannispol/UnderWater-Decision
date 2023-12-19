@@ -165,3 +165,10 @@ data/*
 
 # Experiments
 experiments/*
+
+# Images
+*.png
+./notebooks/*.png
+
+# Gradio
+/flagged/

@@ -2,8 +2,10 @@ import argparse
 import random
 import yaml
 
-import pandas as pd
 import numpy as np
+import pandas as pd
+from pandas import DataFrame
+from sklearn.preprocessing import LabelEncoder
 
 
 def read_config(config_path):
@@ -169,6 +171,15 @@ def generate_synthetic_data(real_df, num_entries):
     return pd.DataFrame(synthetic_data)
 
 
+def encode_categorical_data(data: DataFrame, columns: list) -> DataFrame:
+    le = LabelEncoder()
+    
+    for col in columns:
+        data[col] = le.fit_transform(data[col])
+    
+    return data
+
+
 def get_args():
     """
     Parse and return command line arguments
@@ -176,15 +187,15 @@ def get_args():
     parser = argparse.ArgumentParser(description='Generate a synthetic dataset based on real data.')
     parser.add_argument('--csv_file_path',
                         type=str,
-                        default='/workspaces/UnderWater-Decision/data/excel/All.csv',
+                        default='data/excel/All.csv',
                         help='The path to the input CSV file with real data. Defaults to the specified path.')
     parser.add_argument('--synthetic_dataset_path', '-s',
                         type=str,
-                        default='/workspaces/UnderWater-Decision/data/default_synthetic_dataset.csv',
+                        default='data/default_synthetic_dataset.csv',
                         help='The path where the synthetic dataset CSV will be saved.')
     parser.add_argument('--config', '-c',
                         type=str,
-                        default='/workspaces/UnderWater-Decision/underwater_decision/data_config.yaml',
+                        default='underwater_decision/data_config.yaml',
                         help='The path where the configuration file for the dataset.')
     parser.add_argument('--num_entries', '-n',
                         type=int,
@@ -226,5 +237,8 @@ if __name__ == "__main__":
         initialize_and_normalize_weights(real_df=real_data_df)
 
     synthetic_dataset = generate_synthetic_data(real_data_df, num_entries)
+    
+    columns_to_encode = ['platform', 'item', 'Recommended_Cleaning_Method']
+    synthetic_dataset = encode_categorical_data(synthetic_dataset, columns_to_encode)
 
     synthetic_dataset.to_csv(synthetic_dataset_path, index=False)
