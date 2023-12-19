@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV, learning_curve
 
 # Import common functions from the classifier_base module
-from classifier_base import (load_dataset, encode_columns, get_features_target,
+from underwater_decision.classifier_base import (load_dataset, encode_columns, get_features_target,
                              split_dataset, prediction_model, prediction_accuracy,
                              print_and_save_output, save_model)
 
