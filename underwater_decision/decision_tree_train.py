@@ -9,7 +9,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 
 # Import common functions from the classifier_base module
-from classifier_base import (load_dataset, encode_columns, get_features_target,
+from underwater_decision.classifier_base import (load_dataset, encode_columns, get_features_target,
                              split_dataset, prediction_model, prediction_accuracy,
                              print_and_save_output, save_model, get_decision_path,)
 
@@ -80,7 +80,7 @@ def get_args():
     args = parser.parse_args()
 
     # Construct full file paths
-    data_dir = Path('/workspaces/UnderWater-Decision/data/')
+    data_dir = Path('data/')
     args.data_file = data_dir / args.data_file
     args.model_file = data_dir / args.model_file
     args.tree_plot_file = data_dir / args.tree_plot_file
