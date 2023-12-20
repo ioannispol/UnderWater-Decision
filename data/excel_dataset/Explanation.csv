@@ -1,0 +1,65 @@
+"Data for the study:  ""Modelling thickness variations of macrofouling communities on offshore platforms in the Dutch North Sea"" by Almeida & Coolen 2019",Unnamed: 1,Unnamed: 2,Unnamed: 3
+,,,
+Legend: ,,,
+platform,Name of structure,,
+year,year of inspection,,
+depthmin,"minimum depth, minus is below water",,
+depth max,maximum depth,,
+Item,"name of item within structure. Use systematic names. All structures are equipped with risers, conductors, caissons and rows and elevations ",,
+AvgMax,Notation A for table with average measurements and M for maximum measurements,,
+hardPerc,percentage of hard growth,,
+hardmm,thickness of hard growth in mm,,
+softPerc,percentage of soft growth,,
+softmm,thickness of soft growth in mm,,
+Remarks,"Any remarks on the quality of data, mistakes, etc. For later quality checking.",,
+,,,
+Revision date 13-12-2016,,,
+,,,
+,Platform,Installed,Plan till
+1,D15-A,1999,2048
+2,D18-A,2013,2033
+3,E17-A,2009,2029
+4,F3-1A,1993,2020
+5,F3-1P,1993,2015
+6,F3-OLT,1993,2020
+7,G14-A,2005,2025
+8,G14-B,2007,2027
+9,G16-A,2005,2025
+10,G16-B,2011,2031
+11,G17-A,2001,2021
+12,G17-AP,2005,2025
+13,G17-S1,2005,?
+14,K2-A,2005,2025
+15,K9-A,1987,2027
+16,K9-B,1999,2019
+17,K9-C,1987,2034
+18,K12-A,1983,2033
+19,K12-BD,1987,2035
+20,K12-BP,1987,2027
+21,K12-C,1984,2034
+22,K12-CC,1988,2028
+23,K12-D,1985,2034
+24,K12-G,2001,2021
+25,K12-K,2007,2027
+26,K12-S2,2002 ?,2021
+27,K12-S3,2003 ?,2021
+28,L5-A,1992,2020
+29,L5-D,2013,2033
+30,L10-AD,1972,2031
+31,L10-AP,1975,2034
+32,L10-AR,1975,2034
+33,L10-AC,1987,2027
+34,L10-B,1974,2034
+35,L10-BB,1980,2030
+36,L10-C,1974,2034
+37,L10-D,1977,2017
+38,L10-E,1977,2017
+39,L10-EE,1984,2033
+40,L10-F,1980,2030
+41,L10-G,1984,2034
+42,L10-L,1988,2028
+43,L10-M,2000,2020
+44,L10-S2,1997,2021
+45,L10-S4,1997,2021
+46,L15-A,1992,2020
+47,Q13-A,2013,2033

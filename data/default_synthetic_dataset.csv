@@ -1,0 +1,1001 @@
+platform,year,depthmin,depthmax,item,hardPerc,hardmm,softPerc,softmm,Total_Area_Coverage,Recommended_Cleaning_Method
+L10-AC,2003,-40,-12,Row A,61,217,33,14,61,Mechanical cleaning methods
+L10-BB,2016,-11,-4,Row 1-2,38,60,84,74,11,Mechanical cleaning methods
+K9-C,2011,-38,-14,Row 1,94,2,52,45,90,Mechanical cleaning methods
+L10-AD,2016,-29,-17,Row B,57,54,50,93,77,High-pressure water jetting
+L10-AC,2007,-19,-6,Row 3-1,10,9,85,110,72,High-pressure water jetting
+K12-A,2010,-18,-12,Conductors,70,23,13,98,80,High-pressure water jetting
+L10-M,2007,-32,-31,Level 2,4,155,19,31,19,Mechanical cleaning methods
+K9-B,2003,-15,-18,Level 1,7,24,4,135,79,High-pressure water jetting
+L10-AC,2005,-34,4,Row D,78,166,99,194,75,Mechanical cleaning methods
+L10-L,2009,-41,-10,Level 2 ,28,21,44,200,44,High-pressure water jetting
+G16-A,2004,-26,-33,Row 5,12,16,2,71,12,High-pressure water jetting
+K9-C,2016,-38,-6,Level 3,48,44,9,11,73,Laser cleaning
+L10-AC,2003,-12,-10,Row 2,16,243,77,126,87,Mechanical cleaning methods
+L10-AD,2002,-14,-9,Row 2,6,224,96,200,76,Mechanical cleaning methods
+K12-C,2005,-24,-26,Risers,52,84,97,138,90,Mechanical cleaning methods
+L10-AD,2017,-18,-42,Row 3,97,2,23,82,90,Mechanical cleaning methods
+K12-BP,2009,-34,-37,Row 1,10,69,20,56,86,Mechanical cleaning methods
+K12-C,2011,-40,-42,Rows and Elevations,19,144,7,89,19,Mechanical cleaning methods
+L10-AD,2014,-41,-24,Level 2 ,68,26,86,67,86,High-pressure water jetting
+G14-A,2015,-26,4,Row 3-1,24,9,51,183,85,High-pressure water jetting
+L10-G,2015,0,-26,Level 3,15,97,13,150,76,Mechanical cleaning methods
+K2-A,2009,-31,-13,Caissons,78,2,72,195,83,High-pressure water jetting
+K12-C,2006,-33,-38,Row 3,46,24,13,188,90,High-pressure water jetting
+L10-L,2009,-39,-39,Row 2-3,88,196,92,89,91,Mechanical cleaning methods
+G14-A,2012,-27,-31,Level 2,65,167,41,195,65,Mechanical cleaning methods
+G14-A,2010,-30,-29,Row B,37,36,27,192,37,High-pressure water jetting
+K12-C,2012,-30,-16,Row 1-2,23,154,0,89,90,Mechanical cleaning methods
+L10-C,2007,-11,-32,Level 2,21,181,60,36,72,Mechanical cleaning methods
+L10-C,2006,-15,-41,Row A,24,1,46,96,46,High-pressure water jetting
+L10-AP,2000,-34,-19,Level 3,58,206,88,151,88,Mechanical cleaning methods
+L10-AC,2009,-42,-30,Level 1,90,10,11,28,90,Mechanical cleaning methods
+L10-D,2007,-37,-39,Caissons,45,42,63,189,85,High-pressure water jetting
+K12-CC,2003,-30,-7,Caissons,4,51,92,197,87,High-pressure water jetting
+L5-A,2006,-39,-26,Risers,51,229,80,29,80,Mechanical cleaning methods
+K2-A,2006,-26,-33,Level 3,2,65,49,98,49,Mechanical cleaning methods
+L10-AD,2013,-8,-18,Level 3,51,28,36,68,71,High-pressure water jetting
+G17-A,2006,3,-33,Row 5,0,111,57,143,85,Mechanical cleaning methods
+L10-G,1999,-13,-18,Row 1-2,23,143,32,101,73,Mechanical cleaning methods
+L10-F,2005,0,-12,Row C,5,25,77,177,9,High-pressure water jetting
+L10-B,2014,-11,-27,Row 5,45,191,80,159,82,Mechanical cleaning methods
+K9-A,2003,-12,4,Row D,23,211,44,194,6,Mechanical cleaning methods
+L10-C,2013,3,-13,Risers,32,221,79,160,10,Mechanical cleaning methods
+L10-EE,2006,-4,-27,Row E,66,37,27,192,89,High-pressure water jetting
+L10-AD,2009,-13,-12,Row 1-2,47,47,87,171,76,High-pressure water jetting
+K12-CC,1999,-31,-7,Conductors,27,8,92,171,78,High-pressure water jetting
+K12-A,2011,-6,-17,Row 4,13,167,50,33,85,Mechanical cleaning methods
+K12-C,2013,-32,-26,Row 1-2,29,3,40,69,40,High-pressure water jetting
+L10-AC,2002,-24,-37,Row C,48,240,48,38,48,Mechanical cleaning methods
+L10-L,2005,-40,-40,Row A,61,158,100,23,73,Mechanical cleaning methods
+L10-M,2000,-17,-27,Conductors,33,26,49,107,87,High-pressure water jetting
+L10-AR,2003,-34,-30,Row 2-3,11,204,89,189,89,Mechanical cleaning methods
+K12-K,2013,-19,-12,Row 1,16,43,39,184,86,High-pressure water jetting
+G17-A,2013,-11,-31,Row 4,45,49,52,194,89,High-pressure water jetting
+L10-BB,2002,-12,-6,Rows and Elevations,42,220,22,73,8,Mechanical cleaning methods
+G17-A,2014,-33,-27,Row A,23,247,3,137,23,Mechanical cleaning methods
+K9-B,2007,-14,-12,Row 1-2,24,61,74,197,89,Mechanical cleaning methods
+L10-E,1999,-13,-15,Level 2 ,1,18,16,156,70,High-pressure water jetting
+L10-L,2000,-29,-7,Row 1-2,54,203,18,194,84,Mechanical cleaning methods
+G16-A,2001,-31,-13,Row D,94,13,34,196,84,Mechanical cleaning methods
+L10-AD,2005,-42,-6,Conductors,27,19,24,23,78,Ultrasonic cleaning
+K12-A,2007,-39,-15,Level 2 ,59,189,35,68,59,Mechanical cleaning methods
+L10-AD,2008,-6,-38,Risers,11,103,5,27,73,Mechanical cleaning methods
+K9-B,2004,-27,4,Level 2 ,13,193,23,181,74,Mechanical cleaning methods
+D15-A,2002,-38,-14,Row B,29,82,89,198,89,Mechanical cleaning methods
+L10-M,1999,-7,-13,Row A,62,49,13,127,6,High-pressure water jetting
+L10-AC,2015,-42,-38,Level 2,12,20,92,168,88,High-pressure water jetting
+L10-B,2012,0,-12,Level 1 ,97,118,12,52,9,Mechanical cleaning methods
+K12-G,2014,-41,-6,Row 1-2,45,179,98,146,91,Mechanical cleaning methods
+L10-AP,2003,-11,-32,Row E,20,87,86,146,72,Mechanical cleaning methods
+K12-BP,1999,-12,-6,Risers,54,37,64,65,10,High-pressure water jetting
+L10-B,2012,-41,-19,Row 1-2,36,150,99,190,90,Mechanical cleaning methods
+E17-A,2009,-30,-40,Row 3-1,36,47,82,196,82,High-pressure water jetting
+L10-EE,2010,-34,4,Row 4,7,142,99,80,89,Mechanical cleaning methods
+L10-AP,2001,-41,-38,Level 3,23,41,92,7,75,High-pressure water jetting
+K9-A,2014,-16,4,Row 1,21,126,31,194,10,Mechanical cleaning methods
+L10-AP,2002,-37,-19,Level 3,28,104,39,170,39,Mechanical cleaning methods
+L10-E,2011,-38,-27,Risers,40,13,4,188,40,High-pressure water jetting
+L10-L,2005,3,-16,Row 5,47,0,92,154,5,High-pressure water jetting
+K12-G,2016,-4,-19,Risers,47,45,87,117,82,High-pressure water jetting
+K12-BP,2010,3,-17,Row 1-2,98,241,78,18,8,Mechanical cleaning methods
+L10-AD,2007,-41,-10,Rows and Elevations,76,186,9,128,76,Mechanical cleaning methods
+L10-M,2004,0,-4,Risers,30,20,60,76,9,High-pressure water jetting
+K9-C,2006,-26,-16,Level 1 ,40,197,45,195,70,Mechanical cleaning methods
+K9-B,2000,-32,-30,Row C,45,47,90,91,90,High-pressure water jetting
+K2-A,2012,-14,-8,Level 1,50,2,84,121,74,High-pressure water jetting
+D15-A,2013,-7,-18,Row D,20,1,75,51,70,High-pressure water jetting
+K12-BD,2000,-18,-42,Row 3,69,250,99,132,90,Mechanical cleaning methods
+G17-A,2017,-42,-9,Row E,20,94,57,192,57,Mechanical cleaning methods
+G16-A,2005,-12,-24,Level 2 ,34,16,47,14,82,Ultrasonic cleaning
+K12-G,2001,0,0,Level 2,35,167,58,181,11,Mechanical cleaning methods
+L10-L,2006,-31,0,Row 4,35,16,9,161,82,High-pressure water jetting
+G16-A,2017,-32,-31,Level 1,84,247,57,198,84,Mechanical cleaning methods
+D15-A,2010,-31,-15,Row 4,38,104,63,152,79,Mechanical cleaning methods
+K12-G,2010,-9,-32,Row E,5,214,88,94,73,Mechanical cleaning methods
+L10-AD,2008,-11,-18,Row D,13,143,23,167,81,Mechanical cleaning methods
+G16-A,2012,-31,-40,Risers,51,240,85,185,78,Mechanical cleaning methods
+L10-B,2013,-12,-18,Row 4,86,198,86,106,70,Mechanical cleaning methods
+L10-EE,2011,-40,-40,Row 4,96,17,46,114,91,Mechanical cleaning methods
+L10-M,2013,-34,-15,Row 4,43,35,72,13,72,Laser cleaning
+K12-D,2015,-27,-4,Row 1-2,26,6,85,126,71,High-pressure water jetting
+K12-C,2008,-27,-4,Rows and Elevations,27,44,92,61,71,High-pressure water jetting
+K12-K,2004,-17,-32,Risers,41,167,10,180,41,Mechanical cleaning methods
+K12-G,2017,-31,-11,Risers,83,209,76,59,88,Mechanical cleaning methods
+K12-D,2000,-11,-17,Level 1,21,96,94,191,91,Mechanical cleaning methods
+K12-CC,2009,-9,-42,Row 3,16,20,44,119,44,High-pressure water jetting
+L10-AR,2014,3,-18,Row 3-1,63,169,87,43,9,Mechanical cleaning methods
+G17-AP,2014,-13,-37,Row 2,56,42,26,131,56,High-pressure water jetting
+K12-D,2013,-29,-39,Row 5,69,75,45,155,69,Mechanical cleaning methods
+K12-C,2004,-34,-42,Row 1,28,213,18,45,73,Mechanical cleaning methods
+L5-A,2016,-18,-15,Level 1,6,161,55,67,85,Mechanical cleaning methods
+L10-AP,2012,-18,-32,Level 1,13,235,4,90,13,Mechanical cleaning methods
+K9-A,2014,-32,4,Row 3-1,52,224,13,94,81,Mechanical cleaning methods
+L10-EE,2002,-40,-24,Level 2,54,209,38,160,54,Mechanical cleaning methods
+L10-AP,2014,-13,-40,Conductors,33,55,33,64,33,High-pressure water jetting
+D15-A,2005,-29,-40,Row 2,89,233,88,147,89,Mechanical cleaning methods
+G16-A,2010,-31,-42,Row E,88,247,89,156,89,Mechanical cleaning methods
+K12-BD,2009,3,-9,Row 4,92,89,83,169,6,Mechanical cleaning methods
+L10-E,2015,-32,-6,Row A,87,40,27,137,81,Mechanical cleaning methods
+K12-A,2001,-32,-11,Level 2 ,22,28,94,89,82,High-pressure water jetting
+L10-AC,2004,-40,-18,Row A,76,86,100,170,90,Mechanical cleaning methods
+L10-AC,2010,-37,4,Row 1-2,28,22,80,59,89,High-pressure water jetting
+L10-AC,2002,-30,-42,Row A,13,221,43,184,80,Mechanical cleaning methods
+L10-BB,1999,-4,-42,Row D,16,18,62,134,77,High-pressure water jetting
+L10-AR,2008,-13,-15,Rows and Elevations,60,23,13,0,80,Laser cleaning
+L10-AR,2000,-30,0,Row E,21,15,7,116,89,High-pressure water jetting
+L10-AR,1999,-34,-6,Row 5,11,59,54,114,73,High-pressure water jetting
+L10-M,2001,-31,0,Level 3,44,118,21,138,88,Mechanical cleaning methods
+G17-A,2009,-14,4,Level 1 ,22,95,89,36,5,Mechanical cleaning methods
+L10-G,1999,-38,-9,Row 2-3,9,5,62,191,74,High-pressure water jetting
+L10-M,2002,-33,-37,Row D,18,0,86,116,86,High-pressure water jetting
+L10-AC,2013,-27,-29,Level 3,24,38,64,44,64,Laser cleaning
+K12-D,2004,0,-40,Row 3-1,13,30,78,154,72,High-pressure water jetting
+G14-B,2003,-13,-24,Level 2,17,89,89,58,83,Mechanical cleaning methods
+K12-C,2011,-18,-4,Row 2-3,45,130,39,49,74,Mechanical cleaning methods
+L10-L,2000,-10,-34,Level 1,9,115,9,88,80,Mechanical cleaning methods
+G17-AP,2015,-16,-31,Row 3,19,88,88,53,90,Mechanical cleaning methods
+K12-A,2009,-38,-4,Row 2-3,6,203,10,124,79,Mechanical cleaning methods
+G17-A,2011,-17,-33,Row 1,4,6,20,118,20,High-pressure water jetting
+G17-A,2002,0,-14,Row 3,13,27,77,173,9,High-pressure water jetting
+K9-A,2001,-29,-29,Row 3,16,111,76,137,76,Mechanical cleaning methods
+L10-C,2000,-16,-15,Level 1 ,97,29,33,26,84,Mechanical cleaning methods
+L10-B,2012,-19,-4,Row C,45,59,38,156,80,High-pressure water jetting
+L10-E,2017,-37,-19,Rows and Elevations,6,62,56,104,56,Mechanical cleaning methods
+K12-BD,2006,-41,-41,Row D,4,219,83,73,35,Mechanical cleaning methods
+L10-F,2015,-30,-32,Risers,26,186,80,97,80,Mechanical cleaning methods
+L10-AR,2010,-8,-32,Row 1,98,2,96,194,89,Mechanical cleaning methods
+G16-A,2004,-11,-6,Level 3,16,245,89,92,6,Mechanical cleaning methods
+K12-BP,2001,-40,0,Row A,6,121,51,102,79,Mechanical cleaning methods
+K12-CC,2006,-38,-40,Level 1,0,235,80,148,72,Mechanical cleaning methods
+G14-A,2016,-6,-14,Rows and Elevations,27,170,1,195,5,Mechanical cleaning methods
+L10-BB,2013,-31,-6,Row A,39,76,82,78,80,Mechanical cleaning methods
+K12-C,2013,-16,-32,Row 2,27,4,28,195,85,High-pressure water jetting
+L10-E,2015,-40,-16,Row C,94,128,65,145,90,Mechanical cleaning methods
+K2-A,2005,-15,-32,Conductors,36,109,85,111,73,Mechanical cleaning methods
+K12-BP,2015,-13,-15,Row 3,81,103,86,28,78,Mechanical cleaning methods
+K12-C,2012,-12,-42,Caissons,94,19,88,195,90,Mechanical cleaning methods
+G14-A,2011,-18,-13,Row 5,48,44,94,142,83,High-pressure water jetting
+K12-K,2000,-16,-24,Caissons,33,195,90,189,83,Mechanical cleaning methods
+K12-BP,2006,-41,-19,Row 5,27,230,31,113,31,Mechanical cleaning methods
+K9-A,2017,-10,-16,Level 2 ,28,27,94,104,89,High-pressure water jetting
+L10-AC,2003,-24,-16,Level 2 ,2,223,18,179,73,Mechanical cleaning methods
+G14-A,2017,-38,-26,Level 2,90,49,93,181,90,Mechanical cleaning methods
+L5-A,2013,-33,-10,Level 2,27,9,63,127,86,High-pressure water jetting
+L10-M,2009,-7,-19,Risers,48,9,66,140,78,High-pressure water jetting
+K9-B,2001,-7,-33,Row E,22,173,10,100,71,Mechanical cleaning methods
+L10-AP,2013,-24,-9,Row 5,87,118,15,124,70,Mechanical cleaning methods
+L10-C,2000,-18,-24,Row 4,16,117,21,94,86,Mechanical cleaning methods
+G17-A,2017,-39,-39,Rows and Elevations,36,195,20,45,91,Mechanical cleaning methods
+L10-E,2004,3,-19,Row C,38,3,4,167,9,High-pressure water jetting
+E17-A,2006,-39,-38,Row 2,10,30,98,144,74,High-pressure water jetting
+L10-F,2017,-37,-32,Row B,89,125,92,131,90,Mechanical cleaning methods
+L10-AD,2012,-34,-33,Row 2-3,80,230,53,82,80,Mechanical cleaning methods
+D15-A,1999,-24,-33,Level 1,3,4,77,82,77,High-pressure water jetting
+D15-A,2014,-26,-33,Row 3-1,45,232,78,104,78,Mechanical cleaning methods
+G17-AP,2005,-19,-18,Row E,53,168,34,109,75,Mechanical cleaning methods
+D15-A,2002,-30,-39,Level 2,44,92,74,176,74,Mechanical cleaning methods
+K2-A,2012,-34,4,Risers,14,11,75,189,91,High-pressure water jetting
+L10-EE,2013,-29,-40,Row E,1,238,67,103,67,Mechanical cleaning methods
+G14-B,1999,-39,-31,Row 1,96,185,78,126,90,Mechanical cleaning methods
+K12-C,2004,-42,-32,Conductors,55,240,73,188,72,Mechanical cleaning methods
+K2-A,2011,-14,-9,Caissons,33,34,64,81,85,High-pressure water jetting
+L10-C,2017,-33,-41,Rows and Elevations,85,144,80,123,70,Mechanical cleaning methods
+K12-BD,2011,-41,-12,Risers,72,37,91,175,90,High-pressure water jetting
+K9-A,2014,-6,-31,Row A,17,24,22,6,82,Ultrasonic cleaning
+K12-BP,2016,-4,-26,Row 1-2,5,35,96,85,83,High-pressure water jetting
+G14-B,2009,0,-19,Row 1,24,34,77,163,11,High-pressure water jetting
+L10-C,2004,-27,-16,Row 5,6,210,72,159,76,Mechanical cleaning methods
+G17-A,2013,-11,-4,Row 3,16,8,86,130,6,High-pressure water jetting
+G17-A,2003,-19,-31,Row C,47,29,87,196,87,High-pressure water jetting
+K12-BP,2014,-30,-26,Conductors,92,8,25,37,90,Mechanical cleaning methods
+L10-AR,2009,-31,-9,Rows and Elevations,4,52,37,150,72,High-pressure water jetting
+L10-G,2008,-41,-39,Risers,50,14,97,146,73,High-pressure water jetting
+L10-L,2013,-16,-42,Rows and Elevations,55,193,40,172,55,Mechanical cleaning methods
+K9-A,2008,-19,-27,Conductors,49,14,5,31,86,Ultrasonic cleaning
+K12-C,2006,-10,-11,Level 1,55,12,59,105,86,High-pressure water jetting
+L10-M,2006,-26,-33,Level 3,25,6,2,166,25,High-pressure water jetting
+L10-AD,2008,-29,0,Row 2-3,91,116,98,81,83,Mechanical cleaning methods
+K12-BP,2002,-8,-15,Row B,48,116,79,155,89,Mechanical cleaning methods
+K2-A,2016,-4,-29,Row 1,8,164,61,153,87,Mechanical cleaning methods
+K12-BP,2010,-31,-30,Level 2,98,185,91,126,90,Mechanical cleaning methods
+K9-C,2004,-37,-16,Row 3-1,32,71,7,159,32,Mechanical cleaning methods
+K12-CC,2009,-12,-42,Row 4,36,6,28,171,36,High-pressure water jetting
+K2-A,2000,-15,-37,Row 4,0,121,30,197,30,Mechanical cleaning methods
+L10-EE,2009,0,-8,Row C,74,21,21,110,8,High-pressure water jetting
+L10-M,1999,-42,-40,Conductors,38,22,98,171,35,High-pressure water jetting
+G17-AP,2016,-8,-26,Row 2,3,28,91,87,90,High-pressure water jetting
+K12-BD,2011,-12,-33,Row 4,37,154,10,12,75,Mechanical cleaning methods
+L10-AR,2016,-29,-26,Row 1-2,86,172,84,122,86,Mechanical cleaning methods
+G17-A,2007,-24,-18,Row 1,21,206,91,113,75,Mechanical cleaning methods
+K9-C,2006,-41,-32,Level 1,42,203,46,197,82,Mechanical cleaning methods
+L10-F,2001,-29,-38,Rows and Elevations,32,100,13,17,32,Mechanical cleaning methods
+G14-B,2010,-24,-18,Level 3,18,47,23,135,72,High-pressure water jetting
+L10-AP,2010,-39,-11,Row 1-2,59,109,8,39,59,Mechanical cleaning methods
+E17-A,2005,-19,-33,Level 2,63,20,27,105,63,High-pressure water jetting
+G17-AP,2002,-32,-8,Row D,52,34,100,39,72,High-pressure water jetting
+G14-A,2007,-6,-24,Row 3,14,234,18,75,76,Mechanical cleaning methods
+L10-D,2016,-14,-18,Row D,27,10,21,112,91,High-pressure water jetting
+G16-A,2011,-31,-30,Level 2,65,49,83,12,83,High-pressure water jetting
+K12-BP,2003,-19,-39,Row A,62,190,87,85,87,Mechanical cleaning methods
+L10-E,2012,-19,-41,Level 3,66,7,45,153,66,High-pressure water jetting
+L10-B,2014,-31,-15,Conductors,98,63,97,14,88,Mechanical cleaning methods
+L10-L,2013,-17,-12,Level 1,32,121,75,122,89,Mechanical cleaning methods
+K2-A,2017,-31,-31,Row E,56,132,45,131,56,Mechanical cleaning methods
+G14-B,2004,-4,-10,Level 3,86,16,6,58,6,Mechanical cleaning methods
+L10-BB,2013,-39,-37,Level 2,7,238,98,141,72,Mechanical cleaning methods
+D15-A,2003,-41,-12,Row 3-1,3,198,47,116,47,Mechanical cleaning methods
+G16-A,2000,-24,-16,Conductors,33,50,36,155,88,High-pressure water jetting
+K12-K,2011,-16,-9,Risers,96,190,55,69,90,Mechanical cleaning methods
+L5-A,2003,-42,-15,Row E,78,152,53,162,78,Mechanical cleaning methods
+K2-A,2005,-4,-9,Risers,19,78,7,89,8,Mechanical cleaning methods
+K12-D,2001,0,-7,Row 2,47,4,93,130,9,High-pressure water jetting
+K12-C,2015,-40,-16,Row B,7,181,96,121,90,Mechanical cleaning methods
+K12-C,2010,-27,-4,Conductors,76,46,63,87,73,High-pressure water jetting
+L10-BB,2002,-24,-30,Row 2-3,56,202,89,106,89,Mechanical cleaning methods
+L10-AP,2009,-39,-4,Row 5,67,12,44,195,77,High-pressure water jetting
+L10-AR,2014,-12,0,Row D,11,168,99,63,11,Mechanical cleaning methods
+L5-A,2003,-9,-18,Level 2 ,94,47,24,159,78,Mechanical cleaning methods
+K12-BP,2017,-6,-38,Row 2,14,87,95,115,78,Mechanical cleaning methods
+L10-G,2003,-24,0,Caissons,66,15,81,19,86,High-pressure water jetting
+G14-A,2008,-29,-33,Row 1,7,164,85,136,85,Mechanical cleaning methods
+K12-BP,2004,3,-7,Level 2,99,49,48,196,5,Mechanical cleaning methods
+K12-CC,2003,-15,-42,Row 4,3,13,86,93,86,High-pressure water jetting
+K12-BD,2003,-41,-6,Row D,1,220,99,151,78,Mechanical cleaning methods
+K9-C,2011,-6,-19,Row D,80,26,91,140,80,High-pressure water jetting
+L10-AR,2002,-12,4,Row E,29,151,68,195,8,Mechanical cleaning methods
+K9-B,2013,-37,-24,Row A,71,81,93,188,90,Mechanical cleaning methods
+K9-C,2006,-13,-17,Level 2 ,10,7,93,147,77,High-pressure water jetting
+G14-B,1999,-18,-24,Caissons,37,202,11,198,75,Mechanical cleaning methods
+L10-F,2014,-7,-38,Caissons,48,88,94,62,73,Mechanical cleaning methods
+D15-A,2007,-26,-38,Row 3-1,23,0,82,190,82,High-pressure water jetting
+G17-A,2002,-34,-13,Row A,60,12,47,89,77,High-pressure water jetting
+G14-B,2016,-18,-6,Row B,30,12,95,3,77,High-pressure water jetting
+K9-B,1999,-41,-26,Level 2,94,10,82,37,90,Mechanical cleaning methods
+L10-AC,2007,-41,-6,Level 2,3,49,13,24,82,Laser cleaning
+K12-BD,2017,-9,-30,Risers,15,232,94,158,82,Mechanical cleaning methods
+G14-B,2016,-17,-27,Row 3-1,26,165,5,14,71,Mechanical cleaning methods
+K12-C,2002,-11,-31,Row C,98,4,79,190,76,Mechanical cleaning methods
+L10-L,2000,-41,-9,Conductors,63,157,30,3,63,Mechanical cleaning methods
+L10-AC,2001,-24,-16,Row 3,50,57,87,17,71,High-pressure water jetting
+K12-K,2012,-12,-19,Risers,2,166,23,153,83,Mechanical cleaning methods
+K12-CC,2002,-6,-32,Row A,6,126,19,176,85,Mechanical cleaning methods
+K12-A,2012,-6,4,Level 1,83,175,96,154,11,Mechanical cleaning methods
+K12-BD,2001,-26,-19,Row E,64,26,76,129,75,High-pressure water jetting
+K12-BD,2014,-31,-17,Risers,35,25,11,100,82,High-pressure water jetting
+G14-A,1999,-26,-30,Row D,3,59,44,64,44,High-pressure water jetting
+G16-A,2005,-42,-31,Row C,81,246,21,91,86,Mechanical cleaning methods
+L10-AP,2017,-7,-4,Row 3,81,162,99,190,11,Mechanical cleaning methods
+G17-AP,2000,-32,-6,Risers,17,79,40,30,86,Mechanical cleaning methods
+L10-AP,2002,-32,-30,Level 1,44,60,71,127,71,Mechanical cleaning methods
+E17-A,2009,-10,-24,Row 3,28,202,91,189,78,Mechanical cleaning methods
+K12-CC,2017,-18,-16,Level 3,25,240,81,40,87,Mechanical cleaning methods
+K12-K,2000,-31,-6,Row E,23,232,5,142,78,Mechanical cleaning methods
+L10-AR,2002,-8,-19,Row 3,19,70,72,196,82,Mechanical cleaning methods
+L10-D,2008,-19,-13,Risers,44,17,90,160,87,High-pressure water jetting
+L10-C,2009,-38,-38,Rows and Elevations,24,35,18,142,90,High-pressure water jetting
+G17-A,2013,-17,-19,Conductors,64,138,86,46,85,Mechanical cleaning methods
+K12-D,2016,-30,-24,Row 2-3,98,36,4,77,90,Mechanical cleaning methods
+L10-F,2008,-13,4,Row D,27,8,2,177,5,High-pressure water jetting
+L10-D,2015,3,-16,Row 4,35,34,56,151,5,High-pressure water jetting
+K12-CC,2002,-31,-7,Level 2,39,8,64,46,71,Ultrasonic cleaning
+K12-D,2015,-15,-12,Caissons,32,95,100,178,81,Mechanical cleaning methods
+L10-C,1999,-34,-14,Level 1 ,26,14,99,181,71,High-pressure water jetting
+K12-K,2012,-14,-18,Rows and Elevations,92,92,58,150,81,Mechanical cleaning methods
+L10-F,2000,-10,-6,Row 2,42,28,76,46,10,High-pressure water jetting
+L10-AC,1999,-4,-8,Row 2,53,38,85,167,8,High-pressure water jetting
+L10-AD,2005,-31,-10,Row C,60,161,2,139,72,Mechanical cleaning methods
+L10-AR,2008,-19,-24,Row E,8,29,80,13,70,High-pressure water jetting
+K12-D,2017,-39,-32,Row 1,15,115,98,151,81,Mechanical cleaning methods
+K12-CC,2008,-33,0,Row A,4,221,56,122,71,Mechanical cleaning methods
+G17-A,2001,-24,-6,Level 2,28,157,44,98,70,Mechanical cleaning methods
+L10-L,2016,-14,-14,Level 2,8,107,66,32,72,Mechanical cleaning methods
+L10-AR,1999,-26,-38,Row E,74,33,68,90,74,High-pressure water jetting
+K12-G,2012,-16,-9,Row E,48,22,36,83,71,High-pressure water jetting
+G14-B,2009,-9,-9,Row 5,19,2,57,174,9,High-pressure water jetting
+L10-G,2009,-39,-42,Risers,84,5,21,142,72,High-pressure water jetting
+L10-B,2003,3,-38,Caissons,18,18,14,119,82,High-pressure water jetting
+L10-D,2001,-30,-9,Level 1,7,181,16,196,81,Mechanical cleaning methods
+L10-D,2015,-38,-4,Row B,31,134,90,156,75,Mechanical cleaning methods
+G17-AP,2009,-29,-10,Row 2,51,54,88,149,70,High-pressure water jetting
+K12-G,2000,-31,-13,Level 1 ,30,38,3,138,71,High-pressure water jetting
+L10-AR,2010,-9,-10,Row 3,76,17,29,79,10,High-pressure water jetting
+G14-B,2010,-11,-41,Row 4,83,21,61,0,83,Cavitation water jetting
+K12-K,2014,-37,-34,Row 1-2,23,213,78,125,87,Mechanical cleaning methods
+L10-AD,2015,-18,-39,Row D,49,92,76,122,76,Mechanical cleaning methods
+L10-B,2008,-30,-40,Row 5,43,241,28,108,43,Mechanical cleaning methods
+L10-G,2011,-18,-7,Row 3,73,83,86,77,70,Mechanical cleaning methods
+K2-A,2012,-13,-38,Row D,33,4,44,159,44,High-pressure water jetting
+K12-BP,2012,-37,-42,Level 1 ,30,12,75,30,84,High-pressure water jetting
+L10-AC,2015,-26,-32,Row 1-2,42,147,11,89,42,Mechanical cleaning methods
+K12-K,2010,-4,-42,Level 2,37,31,40,33,82,Laser cleaning
+K12-A,2007,-15,-4,Row 4,49,151,84,79,10,Mechanical cleaning methods
+K12-A,2000,-41,-10,Row 3-1,8,12,52,59,52,High-pressure water jetting
+K12-K,2006,-41,-10,Row 3,21,21,10,179,21,High-pressure water jetting
+K9-A,2006,-17,0,Risers,17,250,50,181,6,Mechanical cleaning methods
+L10-C,2014,-26,-6,Row A,59,17,26,175,76,High-pressure water jetting
+K12-D,2012,-26,-12,Row E,14,2,37,64,86,High-pressure water jetting
+G16-A,2006,-37,-15,Row 2-3,23,46,20,74,23,High-pressure water jetting
+G14-A,1999,-15,-41,Level 2,42,239,47,109,47,Mechanical cleaning methods
+L10-AC,2000,-18,-10,Row 4,5,26,94,54,84,High-pressure water jetting
+L10-C,2003,3,-6,Conductors,10,8,96,95,10,High-pressure water jetting
+G17-AP,2006,0,-33,Row 4,3,178,50,44,85,Mechanical cleaning methods
+G17-AP,2003,-26,-12,Row 1,47,28,24,86,80,High-pressure water jetting
+D15-A,2007,-42,-40,Level 1 ,53,15,65,124,44,High-pressure water jetting
+K12-BD,2017,-37,-32,Caissons,37,167,31,43,37,Mechanical cleaning methods
+K9-B,2012,-8,-30,Row E,18,243,30,65,71,Mechanical cleaning methods
+K12-C,2001,-41,-33,Row A,76,25,90,117,88,High-pressure water jetting
+L5-A,2008,-40,-8,Level 1 ,14,116,66,199,73,Mechanical cleaning methods
+K12-C,1999,-34,0,Row 4,92,24,54,104,76,Mechanical cleaning methods
+L10-F,2014,-18,-15,Row 2,76,15,91,65,82,High-pressure water jetting
+L10-F,2000,-15,-39,Risers,64,86,89,195,89,Mechanical cleaning methods
+G14-B,2011,-9,-17,Row 2,10,141,41,106,78,Mechanical cleaning methods
+L10-F,2006,-13,-29,Caissons,18,234,38,80,80,Mechanical cleaning methods
+L10-AD,2005,-41,-37,Row A,40,113,82,149,73,Mechanical cleaning methods
+K12-K,2010,-27,-10,Conductors,23,188,63,193,89,Mechanical cleaning methods
+K12-BP,2017,-13,-30,Row 1,77,46,44,85,91,High-pressure water jetting
+K9-C,2000,-31,-29,Row 3-1,99,130,55,153,90,Mechanical cleaning methods
+K12-BD,2017,-30,-4,Level 2 ,61,218,82,114,70,Mechanical cleaning methods
+K9-C,2012,-38,4,Row 2-3,31,171,71,166,74,Mechanical cleaning methods
+L10-AR,2010,-16,-31,Row 1-2,15,6,53,97,90,High-pressure water jetting
+K12-BP,2013,-19,-41,Level 2,15,6,94,154,90,High-pressure water jetting
+L10-M,2002,-32,-31,Row 2-3,4,14,44,110,44,High-pressure water jetting
+K9-C,2006,-40,-11,Row 4,43,23,19,96,43,High-pressure water jetting
+G17-AP,1999,-4,-34,Level 2 ,51,24,80,14,88,High-pressure water jetting
+L10-BB,2016,-29,-8,Row 4,86,12,76,39,72,Mechanical cleaning methods
+G17-AP,2000,-42,-32,Row B,44,40,93,169,91,High-pressure water jetting
+L5-A,2006,-18,-34,Row 1-2,48,66,90,166,90,Mechanical cleaning methods
+E17-A,2017,-12,-11,Conductors,22,178,46,167,76,Mechanical cleaning methods
+D15-A,2005,-13,-6,Row 2-3,21,24,11,102,6,High-pressure water jetting
+D15-A,2001,-41,-42,Row A,28,27,96,24,56,High-pressure water jetting
+L10-AP,2009,-39,0,Row E,26,20,80,109,90,High-pressure water jetting
+G17-A,2012,-11,-39,Level 1 ,12,115,81,186,81,Mechanical cleaning methods
+L10-AC,2008,-15,-31,Row E,12,224,89,134,84,Mechanical cleaning methods
+L10-AD,2006,-29,-24,Row E,98,77,97,162,90,Mechanical cleaning methods
+K12-K,2005,-8,4,Row B,73,19,10,81,11,High-pressure water jetting
+G17-A,2008,-10,-32,Row D,31,108,81,108,91,Mechanical cleaning methods
+L10-B,2009,0,-8,Row 5,14,53,75,152,5,High-pressure water jetting
+K12-G,2005,-34,0,Row 1-2,30,248,20,182,91,Mechanical cleaning methods
+L10-B,2007,-16,-32,Row C,0,144,54,87,76,Mechanical cleaning methods
+L10-E,2016,-42,-18,Level 1 ,28,2,95,114,90,High-pressure water jetting
+K12-G,2009,-24,-15,Row 1-2,47,4,42,101,84,High-pressure water jetting
+L10-C,2011,0,-10,Row 3-1,28,10,37,108,8,High-pressure water jetting
+K12-C,2009,-41,-29,Row D,48,6,85,148,85,High-pressure water jetting
+K12-C,2005,-6,-14,Row A,36,178,97,30,10,Mechanical cleaning methods
+L10-BB,2017,-4,-17,Row 3-1,20,43,86,158,79,High-pressure water jetting
+L10-F,2003,-38,-38,Row 1,6,36,24,175,83,High-pressure water jetting
+K9-A,2002,-34,-38,Row 1,73,210,29,28,83,Mechanical cleaning methods
+L10-AR,2013,-24,-6,Row 4,55,4,77,188,79,High-pressure water jetting
+L10-F,2002,-27,-37,Row A,28,14,71,140,71,High-pressure water jetting
+L10-D,2017,-30,-10,Row 3,15,57,95,71,74,High-pressure water jetting
+K2-A,2011,-11,-41,Row 1,46,26,87,64,87,High-pressure water jetting
+L10-F,2007,-26,-34,Rows and Elevations,23,6,41,161,41,High-pressure water jetting
+K9-A,2013,-12,-32,Level 2 ,22,139,60,46,87,Mechanical cleaning methods
+K12-A,2009,-14,-38,Row D,27,45,80,146,80,High-pressure water jetting
+L10-BB,2003,-14,-26,Row A,21,230,93,123,89,Mechanical cleaning methods
+G14-A,2015,-37,-9,Risers,93,3,60,179,72,Mechanical cleaning methods
+K12-BD,2009,-12,-8,Row 3-1,34,19,22,140,5,High-pressure water jetting
+G16-A,2004,-29,-29,Risers,27,117,43,173,43,Mechanical cleaning methods
+K12-C,2008,-32,-38,Level 1 ,53,58,26,179,53,High-pressure water jetting
+G17-AP,2008,-34,-27,Row D,0,202,58,167,58,Mechanical cleaning methods
+K12-BP,2002,-14,-8,Row 3-1,0,151,80,88,81,Mechanical cleaning methods
+L5-A,2013,-10,-30,Row 2,40,39,7,145,76,High-pressure water jetting
+L10-AR,1999,-11,0,Level 1,43,26,83,95,9,High-pressure water jetting
+L10-L,2009,3,-37,Caissons,33,25,90,189,81,High-pressure water jetting
+L10-F,2006,-27,-29,Rows and Elevations,20,29,21,158,21,High-pressure water jetting
+K12-K,2003,-14,-12,Row 3-1,64,17,2,101,81,High-pressure water jetting
+K2-A,2007,-32,4,Row A,95,98,25,171,86,Mechanical cleaning methods
+K2-A,2011,-9,-8,Level 2 ,42,29,27,154,10,High-pressure water jetting
+L10-E,2005,-32,-11,Row 2,14,189,35,112,79,Mechanical cleaning methods
+G14-B,2014,-41,-34,Row 3,4,222,56,138,74,Mechanical cleaning methods
+G14-B,2002,-4,-14,Row 3,37,156,91,27,6,Mechanical cleaning methods
+K9-A,1999,-16,-6,Row 3,38,74,44,161,85,Mechanical cleaning methods
+K12-A,2004,-7,-14,Row E,39,144,75,181,81,Mechanical cleaning methods
+L10-D,2008,3,-32,Level 1 ,43,13,27,151,70,High-pressure water jetting
+D15-A,2012,0,-8,Row 2,40,188,76,152,5,Mechanical cleaning methods
+L10-G,2013,-29,-33,Row 2,93,1,58,115,90,Mechanical cleaning methods
+L10-EE,2002,0,-7,Row D,80,141,7,120,11,Mechanical cleaning methods
+K12-BD,2010,3,-30,Row D,33,29,38,127,75,High-pressure water jetting
+K9-A,2013,-10,-6,Row D,86,128,2,183,9,Mechanical cleaning methods
+K12-C,2006,-42,-18,Row B,13,185,44,198,44,Mechanical cleaning methods
+L10-AC,2002,-11,-29,Caissons,7,62,17,62,88,Mechanical cleaning methods
+K12-D,2002,-19,4,Row D,92,178,100,166,9,Mechanical cleaning methods
+L10-AP,2001,3,-15,Level 1 ,28,56,70,161,5,High-pressure water jetting
+L10-AD,2008,-17,-19,Level 2 ,13,52,30,9,82,Laser cleaning
+K9-B,2003,3,0,Row B,6,204,14,159,84,Mechanical cleaning methods
+L10-E,2007,-40,-26,Level 1 ,84,21,90,187,90,High-pressure water jetting
+K9-B,2013,-10,-15,Level 1,67,66,87,82,83,Mechanical cleaning methods
+K12-C,1999,-11,-4,Row C,46,114,89,13,8,Mechanical cleaning methods
+G14-B,2016,-12,-26,Row 3,42,1,52,168,75,High-pressure water jetting
+K12-G,2017,-37,-7,Row 4,34,180,11,94,78,Mechanical cleaning methods
+K12-K,2001,-38,-29,Level 1,25,47,92,102,90,High-pressure water jetting
+L10-B,2009,-34,-12,Row 2,20,178,84,121,87,Mechanical cleaning methods
+K12-D,2004,-17,-24,Row 5,9,195,84,194,87,Mechanical cleaning methods
+L10-AP,2011,-4,-41,Level 2 ,3,12,85,140,74,High-pressure water jetting
+K9-C,1999,-17,-13,Row A,21,10,2,7,78,Ultrasonic cleaning
+L10-E,2007,-27,-9,Caissons,27,7,7,149,89,High-pressure water jetting
+L5-A,2014,-9,-27,Row 3-1,73,233,82,61,87,Mechanical cleaning methods
+L10-AP,2017,-39,-42,Row 5,25,201,85,41,27,Mechanical cleaning methods
+L10-G,2011,-4,-7,Row A,85,177,100,119,9,Mechanical cleaning methods
+K12-CC,2004,-10,4,Row 1-2,26,111,16,121,5,Mechanical cleaning methods
+K9-A,2001,-27,-7,Level 2,29,32,10,145,81,High-pressure water jetting
+K12-BP,2014,-37,-9,Row E,36,45,93,37,79,High-pressure water jetting
+L10-EE,2017,-11,-16,Row B,23,239,92,6,83,Mechanical cleaning methods
+L10-AP,2014,-31,-27,Row 2,7,84,76,161,76,Mechanical cleaning methods
+D15-A,2012,-34,-9,Level 2 ,29,57,99,70,81,High-pressure water jetting
+K12-D,2015,-10,-19,Row 1,82,209,54,103,82,Mechanical cleaning methods
+L10-EE,2012,-7,-29,Row 2,93,53,98,32,80,Mechanical cleaning methods
+G14-B,2017,-9,-18,Row 4,24,15,69,142,88,High-pressure water jetting
+E17-A,2006,-7,-8,Conductors,36,242,85,100,9,Mechanical cleaning methods
+K9-A,2004,-33,-14,Row B,4,29,54,122,83,High-pressure water jetting
+L10-C,2012,-17,-24,Row C,26,173,46,96,74,Mechanical cleaning methods
+E17-A,2008,-37,0,Risers,3,172,95,113,89,Mechanical cleaning methods
+L10-M,2006,-7,-26,Row 3,99,7,100,19,77,Mechanical cleaning methods
+L5-A,2002,-38,-33,Caissons,13,110,80,144,82,Mechanical cleaning methods
+L10-G,2017,-37,-13,Level 1,12,71,60,78,60,Mechanical cleaning methods
+K12-CC,2015,-42,-19,Row 1,70,43,18,114,70,High-pressure water jetting
+K12-C,2011,-40,-41,Caissons,36,99,65,191,65,Mechanical cleaning methods
+G14-B,2006,-14,-40,Row B,2,215,82,29,82,Mechanical cleaning methods
+K12-BP,1999,-42,-39,Level 1,24,157,88,173,20,Mechanical cleaning methods
+L10-AR,2009,3,-15,Row 1-2,2,2,80,7,10,High-pressure water jetting
+K9-C,2006,3,-17,Row B,72,22,55,152,7,High-pressure water jetting
+L10-EE,2010,-26,-29,Row 4,43,22,91,93,90,High-pressure water jetting
+G14-A,2012,-31,-12,Rows and Elevations,71,91,28,137,75,Mechanical cleaning methods
+K9-B,2015,-6,-34,Row 4,45,30,85,49,77,High-pressure water jetting
+K9-B,2006,-39,-26,Level 2 ,76,174,29,45,76,Mechanical cleaning methods
+K12-C,2010,-16,-34,Level 1,40,153,93,144,90,Mechanical cleaning methods
+L10-AR,2002,3,-17,Row 4,13,7,3,144,9,High-pressure water jetting
+G17-AP,2001,-13,-19,Row E,69,9,92,137,80,High-pressure water jetting
+G14-B,2008,-15,-10,Row 1-2,60,8,52,135,84,High-pressure water jetting
+K12-D,2003,-4,-18,Row 1,9,164,7,131,72,Mechanical cleaning methods
+K12-BP,2009,-39,-41,Conductors,78,80,86,82,73,Mechanical cleaning methods
+K12-CC,2005,-40,-38,Conductors,7,218,80,36,73,Mechanical cleaning methods
+G14-A,2012,-37,-41,Level 1,2,114,97,165,84,Mechanical cleaning methods
+L10-AC,2011,-17,-8,Level 2,14,70,43,97,71,Mechanical cleaning methods
+K12-G,2006,-19,-27,Level 1,79,17,84,45,74,High-pressure water jetting
+L10-D,2002,-32,-39,Level 3,8,77,29,137,79,Mechanical cleaning methods
+K12-D,2004,-13,4,Level 2 ,37,84,72,14,9,Mechanical cleaning methods
+K12-BD,2008,-32,-24,Level 1 ,76,68,24,111,76,Mechanical cleaning methods
+G14-B,2001,-15,-9,Row B,87,14,95,141,90,Mechanical cleaning methods
+E17-A,2003,-33,-26,Row D,83,118,76,112,83,Mechanical cleaning methods
+K12-K,2016,-26,-7,Rows and Elevations,49,1,11,98,73,High-pressure water jetting
+L10-C,2016,-40,-17,Row E,88,112,87,104,88,Mechanical cleaning methods
+K12-C,2010,-10,-12,Level 1 ,61,5,84,20,74,High-pressure water jetting
+K9-C,2005,-32,-42,Conductors,21,243,54,138,87,Mechanical cleaning methods
+L10-M,2016,-19,-4,Row C,1,90,1,19,70,Mechanical cleaning methods
+L10-G,2015,-38,-18,Level 1,76,49,82,70,82,High-pressure water jetting
+L10-G,2002,-18,-41,Row B,17,94,0,118,17,Mechanical cleaning methods
+L10-BB,2017,-39,-6,Row 2-3,65,231,86,125,83,Mechanical cleaning methods
+K2-A,2011,-38,-33,Row E,45,41,43,137,86,High-pressure water jetting
+L10-AD,2007,-16,-13,Level 2 ,28,24,36,170,91,High-pressure water jetting
+K2-A,2003,-13,-8,Level 2,72,12,72,75,77,High-pressure water jetting
+G14-B,2007,-38,-4,Level 2,11,159,58,147,76,Mechanical cleaning methods
+K12-K,2012,-34,-10,Row 1-2,27,24,59,97,84,High-pressure water jetting
+L10-D,2011,-26,-41,Level 3,46,10,38,164,46,High-pressure water jetting
+E17-A,2007,-10,-6,Risers,97,50,0,190,11,Mechanical cleaning methods
+G14-B,2004,-30,4,Conductors,5,7,99,180,83,High-pressure water jetting
+G14-A,2011,-9,-18,Row B,62,76,24,71,86,Mechanical cleaning methods
+L10-BB,2014,-7,-9,Row 2,20,63,20,16,6,Mechanical cleaning methods
+K12-G,1999,-7,4,Row A,11,201,72,144,10,Mechanical cleaning methods
+K12-BP,2013,-30,-11,Row 2,65,185,42,44,74,Mechanical cleaning methods
+G14-B,2003,-11,-10,Row B,12,68,7,118,79,Mechanical cleaning methods
+L10-AP,2013,-34,-18,Caissons,31,132,85,136,85,Mechanical cleaning methods
+K9-A,2009,-37,-37,Row 5,3,6,83,75,86,High-pressure water jetting
+K9-C,2006,-38,-15,Conductors,62,98,26,16,62,Mechanical cleaning methods
+K12-BP,2012,-10,-6,Caissons,73,23,48,80,8,High-pressure water jetting
+L10-B,2001,-42,-42,Caissons,19,10,84,124,70,High-pressure water jetting
+L10-BB,2014,-10,-17,Row 2,25,241,11,198,74,Mechanical cleaning methods
+K12-BD,2009,-34,4,Row 5,24,169,79,81,75,Mechanical cleaning methods
+L10-E,2002,-31,-29,Row B,88,4,42,2,88,Mechanical cleaning methods
+L10-L,2012,-42,-17,Row 1-2,90,20,10,92,90,Mechanical cleaning methods
+L10-AD,2007,-38,-4,Level 2,6,15,81,5,84,High-pressure water jetting
+L10-C,2014,-40,-24,Row D,59,19,19,39,59,Laser cleaning
+K12-G,2014,-38,-17,Row 1,34,139,80,106,80,Mechanical cleaning methods
+L10-AC,2006,-41,-8,Row 5,5,24,77,42,77,High-pressure water jetting
+G17-AP,1999,-33,-18,Row A,55,142,100,151,90,Mechanical cleaning methods
+K12-BP,2011,-6,-24,Row 2-3,21,144,8,80,90,Mechanical cleaning methods
+G16-A,1999,-19,-8,Caissons,78,193,64,17,81,Mechanical cleaning methods
+K9-A,2016,-19,-38,Row 3-1,20,2,80,189,80,High-pressure water jetting
+G14-B,2006,-24,-14,Conductors,29,4,87,132,91,High-pressure water jetting
+L10-L,2001,-19,-15,Row 4,69,170,76,72,80,Mechanical cleaning methods
+G17-A,2008,-27,-14,Row B,63,0,37,14,76,Laser cleaning
+L10-M,2015,-18,-18,Row D,64,55,70,116,91,High-pressure water jetting
+L10-AD,2004,-11,-32,Row A,48,184,0,160,90,Mechanical cleaning methods
+L10-B,2014,-11,-17,Row C,5,26,87,195,82,High-pressure water jetting
+K2-A,2004,-14,4,Level 2 ,80,120,46,114,10,Mechanical cleaning methods
+G17-AP,2017,-42,0,Level 2 ,96,33,99,92,83,Mechanical cleaning methods
+L10-L,2014,-8,-4,Level 3,18,142,76,191,10,Mechanical cleaning methods
+G17-A,2006,-4,-37,Row B,0,11,3,63,90,High-pressure water jetting
+G17-A,2016,-4,0,Level 3,37,36,96,168,5,High-pressure water jetting
+L10-E,2007,-14,4,Level 2,69,98,96,57,10,Mechanical cleaning methods
+G16-A,2000,-18,-17,Row E,64,27,67,78,78,High-pressure water jetting
+L10-AP,2001,-33,-10,Risers,11,187,97,192,91,Mechanical cleaning methods
+K2-A,2000,-4,-33,Caissons,80,230,91,178,86,Mechanical cleaning methods
+K9-B,2009,-38,-18,Row 4,44,171,85,197,85,Mechanical cleaning methods
+K12-D,2017,-19,-26,Row C,94,14,24,42,87,Mechanical cleaning methods
+L5-A,2008,-14,-29,Row 4,23,10,4,79,88,High-pressure water jetting
+L10-B,2001,-40,-17,Rows and Elevations,6,23,97,82,90,High-pressure water jetting
+K12-K,2006,-33,-41,Level 1 ,36,50,98,104,70,High-pressure water jetting
+K12-BD,2003,-6,-11,Row 3,17,197,61,18,9,Mechanical cleaning methods
+L10-M,2012,-33,-26,Row E,69,153,77,110,77,Mechanical cleaning methods
+K9-A,2000,-27,-41,Rows and Elevations,2,77,25,155,25,Mechanical cleaning methods
+G17-A,2003,3,-8,Row B,99,210,43,39,6,Mechanical cleaning methods
+G16-A,2015,-34,-16,Risers,21,0,78,114,78,High-pressure water jetting
+K12-BD,2014,-38,-30,Row C,83,83,75,165,83,Mechanical cleaning methods
+K12-A,2011,-24,-33,Rows and Elevations,58,38,62,107,62,High-pressure water jetting
+G14-A,2014,-42,0,Level 2,43,10,63,6,71,Ultrasonic cleaning
+L10-B,2001,-9,-39,Row E,88,159,17,87,86,Mechanical cleaning methods
+G17-A,2010,-42,-13,Row 3,3,245,99,119,90,Mechanical cleaning methods
+L10-L,2017,-17,-15,Row 2-3,57,44,86,143,74,High-pressure water jetting
+K12-CC,1999,-14,-26,Row A,46,173,43,4,77,Mechanical cleaning methods
+K9-A,2016,-40,-15,Conductors,29,81,25,134,29,Mechanical cleaning methods
+L10-M,2011,-8,-13,Conductors,65,86,38,62,82,Mechanical cleaning methods
+K12-C,2001,-31,-26,Rows and Elevations,41,11,33,176,41,High-pressure water jetting
+L10-EE,2012,-29,-38,Row 5,4,198,93,134,90,Mechanical cleaning methods
+G14-B,2008,-34,-12,Caissons,89,23,62,57,79,Mechanical cleaning methods
+L10-B,2005,-14,-40,Caissons,4,54,93,29,90,High-pressure water jetting
+L10-AC,2009,-33,-24,Caissons,80,78,62,118,80,Mechanical cleaning methods
+K12-D,2013,-16,-19,Row C,40,2,90,170,72,High-pressure water jetting
+G14-B,2011,0,-29,Row D,22,170,43,200,91,Mechanical cleaning methods
+L10-AP,2012,-31,-16,Row D,30,199,2,179,72,Mechanical cleaning methods
+G17-A,2011,-42,-40,Row 2-3,47,134,83,183,49,Mechanical cleaning methods
+L10-AD,2013,-4,-29,Rows and Elevations,71,221,82,186,81,Mechanical cleaning methods
+K12-K,2013,-10,-31,Level 1,12,21,41,137,91,High-pressure water jetting
+K12-BD,2003,-39,-6,Level 1 ,1,247,9,74,72,Mechanical cleaning methods
+G17-AP,2000,-31,-42,Level 3,45,10,69,5,84,Ultrasonic cleaning
+K9-C,2009,-7,-6,Level 3,20,49,84,110,11,High-pressure water jetting
+L10-B,2010,-41,-8,Row 2,92,208,90,193,90,Mechanical cleaning methods
+K12-BD,2001,-13,4,Row 2,91,5,85,132,5,Mechanical cleaning methods
+K12-K,2001,-40,-4,Row 2-3,1,197,67,139,84,Mechanical cleaning methods
+K9-B,2009,-11,-18,Level 2 ,73,108,10,97,90,Mechanical cleaning methods
+L10-L,2008,-26,-16,Row A,7,80,61,130,91,Mechanical cleaning methods
+G17-AP,2014,-4,-27,Row 2-3,47,90,11,38,84,Mechanical cleaning methods
+L10-B,2011,-16,-9,Row 5,36,198,55,175,89,Mechanical cleaning methods
+L10-L,2017,-14,-33,Row 4,26,93,57,188,87,Mechanical cleaning methods
+L5-A,2008,-42,-39,Level 1,73,176,27,112,73,Mechanical cleaning methods
+K12-A,2006,-18,-24,Risers,46,144,80,126,76,Mechanical cleaning methods
+G17-AP,2014,-13,-41,Row B,63,72,92,158,90,Mechanical cleaning methods
+K12-G,1999,-19,-24,Row 5,81,72,57,171,72,Mechanical cleaning methods
+L10-D,2012,-6,-27,Conductors,34,3,46,170,78,High-pressure water jetting
+K12-C,2007,-26,-32,Level 2 ,16,12,57,159,57,High-pressure water jetting
+D15-A,2004,-14,-7,Row A,14,7,53,126,70,High-pressure water jetting
+L10-AR,2015,-42,-26,Row A,80,24,82,90,82,High-pressure water jetting
+L10-E,2010,-14,0,Risers,24,41,89,111,11,High-pressure water jetting
+G17-AP,2005,-32,-13,Level 2 ,5,25,42,114,83,High-pressure water jetting
+L10-F,2005,-41,-9,Level 1,70,5,97,73,90,High-pressure water jetting
+K9-C,2014,-14,-32,Row 1-2,6,42,22,80,87,High-pressure water jetting
+K12-D,2005,-17,0,Level 2 ,27,37,75,28,7,High-pressure water jetting
+K12-BP,2007,-37,-9,Row 1-2,67,39,34,145,79,High-pressure water jetting
+L10-AD,2008,-27,-13,Row D,10,10,14,124,73,High-pressure water jetting
+K2-A,2006,-30,-15,Level 1,92,150,71,4,72,Mechanical cleaning methods
+L5-A,2006,-38,-9,Conductors,9,122,52,94,89,Mechanical cleaning methods
+G17-AP,2015,0,4,Row E,24,202,3,197,89,Mechanical cleaning methods
+D15-A,2015,-37,-31,Rows and Elevations,0,136,2,170,2,Mechanical cleaning methods
+K12-C,2000,0,-15,Level 1 ,7,6,54,136,6,High-pressure water jetting
+L10-E,2010,0,-33,Row C,77,164,11,34,77,Mechanical cleaning methods
+K12-G,2002,-31,-40,Row 2-3,62,231,64,59,72,Mechanical cleaning methods
+G14-B,2000,-38,-14,Row 1,7,47,25,55,25,High-pressure water jetting
+K12-CC,2005,-4,-6,Level 3,60,144,82,28,7,Mechanical cleaning methods
+K2-A,2015,-38,-24,Level 2,8,33,27,34,27,Laser cleaning
+K2-A,2006,-4,4,Row D,33,174,91,39,10,Mechanical cleaning methods
+L10-AP,2009,-15,-26,Row 1-2,60,103,75,179,70,Mechanical cleaning methods
+L10-C,2002,-37,0,Row E,37,81,59,112,75,Mechanical cleaning methods
+L10-E,2016,-41,-38,Risers,78,10,96,159,87,High-pressure water jetting
+L10-E,2007,-12,-34,Level 1 ,46,210,90,133,91,Mechanical cleaning methods
+K12-BP,2006,-40,-26,Row C,93,41,66,141,90,Mechanical cleaning methods
+L10-B,2017,-34,-11,Level 3,19,48,36,197,82,High-pressure water jetting
+L10-AR,2008,-16,-4,Rows and Elevations,21,34,81,39,8,High-pressure water jetting
+G16-A,2017,-29,-33,Row 3,61,169,22,185,61,Mechanical cleaning methods
+K9-B,2004,-37,-26,Caissons,40,124,81,146,81,Mechanical cleaning methods
+K12-K,2006,-42,-16,Row 1-2,47,144,29,34,47,Mechanical cleaning methods
+K9-C,2002,-4,-38,Row B,49,199,10,181,88,Mechanical cleaning methods
+L10-F,2008,-11,4,Row A,43,11,46,122,11,High-pressure water jetting
+K9-A,2003,-19,-24,Level 1,70,5,76,148,77,High-pressure water jetting
+G17-AP,2010,-17,-32,Row 1-2,18,142,12,164,18,Mechanical cleaning methods
+K12-BP,1999,-27,-13,Level 3,39,22,33,110,86,High-pressure water jetting
+L10-D,2001,-13,-6,Rows and Elevations,39,217,97,121,11,Mechanical cleaning methods
+L10-E,2008,-42,-16,Row C,94,146,85,49,90,Mechanical cleaning methods
+G17-A,2014,-31,-27,Level 2,1,66,66,1,66,Mechanical cleaning methods
+G14-B,2002,-31,-7,Level 1,48,90,72,100,89,Mechanical cleaning methods
+K2-A,2016,-14,-11,Row C,71,19,86,148,73,High-pressure water jetting
+K12-BP,2013,-14,-38,Row 1,6,100,23,172,23,Mechanical cleaning methods
+K12-BD,2004,-42,-19,Level 1,21,165,87,169,87,Mechanical cleaning methods
+L10-AD,2015,-12,-18,Rows and Elevations,7,188,46,173,71,Mechanical cleaning methods
+G17-AP,2015,-33,-26,Row 2-3,20,228,84,34,84,Mechanical cleaning methods
+K12-A,2005,-33,-12,Row C,13,73,100,28,76,Mechanical cleaning methods
+L10-B,2017,-30,-17,Row 2-3,45,192,98,53,84,Mechanical cleaning methods
+E17-A,2003,-26,0,Row 1-2,5,59,99,28,80,High-pressure water jetting
+L5-A,2004,-31,-7,Row A,21,8,91,116,91,High-pressure water jetting
+L10-BB,2010,-39,-39,Row 4,40,243,11,55,74,Mechanical cleaning methods
+K9-A,2011,-16,-30,Row 2,74,8,75,115,77,High-pressure water jetting
+K12-CC,2002,-4,-6,Caissons,39,150,84,46,8,Mechanical cleaning methods
+K12-A,2009,-10,-15,Level 3,29,45,12,25,75,Laser cleaning
+K12-D,2001,-24,-12,Row 4,14,26,1,50,71,High-pressure water jetting
+K2-A,2017,-32,-37,Row E,46,48,73,178,73,High-pressure water jetting
+L10-L,2008,-6,-40,Risers,46,5,0,19,72,Ultrasonic cleaning
+K12-K,2007,-42,-7,Row 1,46,39,50,131,50,High-pressure water jetting
+K12-K,2013,-17,-17,Level 1 ,11,9,29,151,91,High-pressure water jetting
+K12-D,2014,-29,-13,Row A,93,9,29,164,72,Mechanical cleaning methods
+L10-EE,2004,-42,-7,Level 2 ,42,157,79,156,79,Mechanical cleaning methods
+L10-B,2012,-10,-42,Row 4,29,197,0,79,29,Mechanical cleaning methods
+G17-AP,2002,-29,0,Level 1 ,58,193,98,185,75,Mechanical cleaning methods
+L10-B,2001,-4,-9,Risers,36,163,24,13,7,Mechanical cleaning methods
+L10-AC,2008,-9,-13,Row D,32,2,88,22,82,High-pressure water jetting
+L10-F,2009,-30,-38,Row 2,80,126,79,93,80,Mechanical cleaning methods
+K12-C,2013,-34,-8,Level 1 ,74,140,82,136,89,Mechanical cleaning methods
+L10-EE,2011,-11,-37,Row B,83,237,89,129,75,Mechanical cleaning methods
+L10-AR,2014,-16,-29,Row 2-3,59,143,18,156,81,Mechanical cleaning methods
+L10-EE,2000,-9,-39,Level 1 ,35,10,74,139,75,High-pressure water jetting
+L10-F,2000,0,-15,Row 4,51,45,56,77,6,High-pressure water jetting
+K12-BD,2007,-30,-33,Row 4,49,10,41,110,49,High-pressure water jetting
+K9-C,2000,-17,-40,Row 2-3,33,12,86,3,86,High-pressure water jetting
+D15-A,2015,3,-38,Level 1 ,84,10,93,171,84,High-pressure water jetting
+E17-A,2017,-40,-19,Level 1,38,5,14,49,38,Ultrasonic cleaning
+K12-CC,2008,-40,-42,Row 3,63,168,56,144,63,Mechanical cleaning methods
+K9-A,2008,-30,-19,Risers,60,9,92,9,90,High-pressure water jetting
+K12-K,1999,-39,-41,Conductors,44,189,38,180,76,Mechanical cleaning methods
+K12-A,2003,-7,-30,Row 4,78,9,3,60,82,High-pressure water jetting
+L10-AC,2005,-39,-17,Conductors,7,148,43,48,43,Mechanical cleaning methods
+L10-AP,2016,-15,-11,Row B,5,43,99,84,86,High-pressure water jetting
+L10-AR,2012,-7,-24,Row C,17,194,78,72,74,Mechanical cleaning methods
+L5-A,2015,-8,-42,Row 1,89,48,85,167,89,Mechanical cleaning methods
+G17-AP,2006,-12,-27,Row C,95,136,51,59,73,Mechanical cleaning methods
+L10-AD,2012,-33,-29,Conductors,24,177,57,63,57,Mechanical cleaning methods
+L10-AC,2014,-42,-30,Row 2-3,20,19,60,152,77,High-pressure water jetting
+L10-AR,1999,-12,-32,Level 3,5,39,94,3,78,High-pressure water jetting
+L5-A,2015,-16,-41,Row D,100,220,88,183,90,Mechanical cleaning methods
+G14-A,2015,-38,-41,Row C,80,93,88,124,90,Mechanical cleaning methods
+G14-B,2016,-6,-33,Level 2,13,149,9,16,89,Mechanical cleaning methods
+G16-A,2015,-14,-14,Row 5,29,9,78,196,82,High-pressure water jetting
+K12-K,2008,-38,4,Row 3,16,12,47,27,88,Ultrasonic cleaning
+K9-A,1999,-24,-26,Row 4,20,118,91,138,90,Mechanical cleaning methods
+L10-E,2014,-30,-40,Row 4,82,27,26,126,82,High-pressure water jetting
+K9-A,2007,-13,-34,Row 4,95,24,99,91,91,Mechanical cleaning methods
+G14-A,2005,-11,-18,Level 2,81,205,91,129,77,Mechanical cleaning methods
+G17-AP,2006,-17,-11,Row 1-2,43,233,92,154,87,Mechanical cleaning methods
+K12-BP,2011,-8,-9,Row A,68,42,70,192,5,High-pressure water jetting
+L10-M,2012,-13,-13,Row 4,17,105,11,171,87,Mechanical cleaning methods
+K12-A,2005,-37,-6,Row C,32,197,81,54,78,Mechanical cleaning methods
+L10-EE,2007,-12,-27,Row D,55,6,54,26,74,Cavitation water jetting
+L10-AD,2013,-24,-19,Row B,97,127,62,161,71,Mechanical cleaning methods
+L10-AC,2005,-18,-31,Level 2 ,93,217,6,175,90,Mechanical cleaning methods
+L10-AP,2001,-26,-26,Level 1 ,96,3,79,127,90,Mechanical cleaning methods
+D15-A,2010,-26,-34,Row B,50,207,49,156,50,Mechanical cleaning methods
+G17-A,2001,-41,-15,Row A,27,235,93,197,90,Mechanical cleaning methods
+E17-A,1999,-4,4,Row 5,8,91,69,168,5,Mechanical cleaning methods
+L10-EE,1999,-39,-16,Row E,20,16,95,195,90,High-pressure water jetting
+K9-A,2008,-31,-7,Row B,22,94,15,172,90,Mechanical cleaning methods
+G14-B,1999,-37,-27,Row 3,37,5,98,154,90,High-pressure water jetting
+L10-M,2011,-13,-24,Row 4,37,73,91,198,72,Mechanical cleaning methods
+K2-A,2016,-37,-7,Row 4,43,5,95,136,85,High-pressure water jetting
+K9-A,2017,-17,-11,Row 2,62,134,4,146,84,Mechanical cleaning methods
+K2-A,2006,-37,-41,Rows and Elevations,47,178,68,23,85,Mechanical cleaning methods
+L5-A,2014,-16,-4,Row 3,30,248,2,173,7,Mechanical cleaning methods
+K9-A,2012,-27,-33,Level 2 ,21,229,85,33,85,Mechanical cleaning methods
+K12-BD,2001,-32,-38,Level 1 ,23,247,55,90,55,Mechanical cleaning methods
+K2-A,2010,-29,-15,Row B,43,32,98,89,85,High-pressure water jetting
+L10-AP,2009,-9,-14,Risers,15,248,97,124,81,Mechanical cleaning methods
+K12-CC,2006,-15,-10,Row 2,82,23,96,163,78,High-pressure water jetting
+L10-L,2017,-17,-15,Level 2 ,8,225,27,178,74,Mechanical cleaning methods
+L10-EE,2014,-27,-26,Row 1-2,97,127,91,192,90,Mechanical cleaning methods
+K12-CC,2013,-41,0,Row 2-3,86,132,9,148,80,Mechanical cleaning methods
+L10-D,1999,-39,-37,Row 3-1,88,172,79,165,90,Mechanical cleaning methods
+K12-BP,2011,-40,-18,Row 2-3,56,20,30,172,56,High-pressure water jetting
+L10-B,2006,-32,-39,Level 1,21,10,40,75,86,High-pressure water jetting
+L10-C,2002,-16,-9,Level 1,25,140,3,162,85,Mechanical cleaning methods
+K12-BP,2003,-6,-18,Row E,14,244,4,142,79,Mechanical cleaning methods
+K12-C,2007,-24,-34,Row A,30,214,50,189,50,Mechanical cleaning methods
+K12-BP,2000,-15,-27,Row B,98,142,31,141,83,Mechanical cleaning methods
+K12-G,2008,-24,4,Row E,2,83,36,195,6,Mechanical cleaning methods
+L5-A,2012,3,-30,Row 3-1,71,140,89,59,70,Mechanical cleaning methods
+L10-AD,2011,3,-17,Level 1 ,43,13,96,127,10,High-pressure water jetting
+L10-C,2000,-18,-27,Level 1 ,23,208,8,177,87,Mechanical cleaning methods
+L10-AD,2009,-16,-40,Row 3-1,31,245,44,11,44,Mechanical cleaning methods
+D15-A,2005,3,-11,Row 1-2,23,110,2,99,8,Mechanical cleaning methods
+K9-A,2013,-39,-17,Caissons,37,49,17,33,37,Laser cleaning
+L10-G,2000,-14,-24,Row 4,12,48,56,155,78,High-pressure water jetting
+G14-B,2015,-10,-9,Level 3,79,90,88,154,8,Mechanical cleaning methods
+G17-A,2003,-18,-10,Level 1 ,40,74,94,147,79,Mechanical cleaning methods
+G14-A,2006,-6,-19,Conductors,79,103,27,118,91,Mechanical cleaning methods
+K12-K,2017,-13,-30,Conductors,29,233,89,100,71,Mechanical cleaning methods
+L10-M,2002,-11,-30,Rows and Elevations,16,37,85,180,72,High-pressure water jetting
+L10-D,2001,-9,-4,Row 2,6,152,18,167,9,Mechanical cleaning methods
+K9-B,2000,-10,-33,Level 1,16,165,67,131,91,Mechanical cleaning methods
+G17-A,2005,-11,-31,Row 3-1,85,27,97,190,75,Mechanical cleaning methods
+G17-A,2007,-6,-39,Rows and Elevations,50,137,1,49,73,Mechanical cleaning methods
+D15-A,2005,-30,-41,Row B,0,21,30,139,71,High-pressure water jetting
+K12-C,2015,-12,-32,Row 4,74,194,9,75,71,Mechanical cleaning methods
+L10-G,1999,-26,-4,Row 1-2,1,25,77,39,91,High-pressure water jetting
+L10-AC,2007,-10,-34,Level 1 ,24,12,13,72,86,High-pressure water jetting
+K12-BD,2008,-12,-40,Level 2,51,248,58,139,58,Mechanical cleaning methods
+L10-AC,2008,-32,-10,Row 5,88,31,77,161,88,Mechanical cleaning methods
+L10-L,2003,3,-29,Row C,76,22,23,20,87,Laser cleaning
+K9-A,2015,-42,-14,Row 3-1,58,137,77,148,77,Mechanical cleaning methods
+K12-CC,2013,-30,-37,Row D,17,13,87,156,87,High-pressure water jetting
+G16-A,2014,0,-12,Row 2,29,12,93,27,6,High-pressure water jetting
+L10-M,2012,-16,-32,Level 1,79,244,57,145,85,Mechanical cleaning methods
+G14-A,2000,-15,-29,Risers,66,10,62,69,76,High-pressure water jetting
+K9-C,2000,-31,-11,Row 5,38,197,80,177,71,Mechanical cleaning methods
+L10-F,2005,-13,-26,Level 1,39,239,63,180,77,Mechanical cleaning methods
+K12-BP,2011,-7,-6,Row 2-3,3,1,84,62,6,High-pressure water jetting
+K9-C,2011,-6,-16,Row 2-3,75,241,33,139,75,Mechanical cleaning methods
+G14-B,2002,-15,-17,Level 2 ,96,174,60,83,90,Mechanical cleaning methods
+L10-C,2014,-6,-15,Risers,40,24,90,91,77,High-pressure water jetting
+L10-AP,1999,-4,-27,Row 4,35,117,81,100,78,Mechanical cleaning methods
+L10-F,2007,-32,4,Row 3-1,19,215,97,102,87,Mechanical cleaning methods
+L10-AD,2012,-30,-29,Row 2-3,87,31,94,126,90,Mechanical cleaning methods
+L10-C,2003,-39,0,Row B,18,201,20,129,90,Mechanical cleaning methods
+L10-G,2009,-34,-18,Risers,29,88,43,2,43,Mechanical cleaning methods
+K9-A,2016,-40,-7,Row A,2,36,98,87,80,High-pressure water jetting
+L10-BB,2012,-18,0,Caissons,8,79,9,50,11,Mechanical cleaning methods
+K12-CC,1999,-32,-15,Level 1,66,22,37,190,78,High-pressure water jetting
+G14-A,2005,-17,-9,Conductors,30,0,60,173,82,High-pressure water jetting
+L10-M,2002,-8,-33,Row C,5,206,99,100,75,Mechanical cleaning methods
+K9-A,2003,-27,0,Row E,85,171,36,3,91,Mechanical cleaning methods
+L5-A,2003,3,-39,Level 1 ,39,30,40,75,83,High-pressure water jetting
+L10-F,2008,-29,-14,Conductors,41,13,43,160,77,High-pressure water jetting
+L10-EE,2007,-41,-13,Level 2,41,129,100,174,90,Mechanical cleaning methods
+K2-A,2013,-26,-41,Level 1 ,37,1,95,192,90,High-pressure water jetting
+L10-F,2016,-6,-10,Conductors,38,20,79,191,9,High-pressure water jetting
+K12-C,2008,-30,0,Level 2,52,0,58,109,71,High-pressure water jetting
+L10-AD,2002,-12,-41,Caissons,35,52,40,25,40,Laser cleaning
+K12-C,2000,-30,-6,Row B,17,14,38,186,88,High-pressure water jetting
+L10-C,2004,-7,0,Level 1 ,43,28,79,154,8,High-pressure water jetting
+K12-A,2017,-8,-6,Row 2-3,14,12,98,93,6,High-pressure water jetting
+K9-C,2011,-34,-31,Risers,97,43,28,177,90,Mechanical cleaning methods
+K2-A,2010,-37,-16,Row 4,69,78,28,146,69,Mechanical cleaning methods
+L10-AP,2002,-6,-16,Level 3,31,155,83,166,80,Mechanical cleaning methods
+L10-L,2009,-40,-30,Level 1 ,20,4,97,80,90,High-pressure water jetting
+L10-L,2010,-9,-6,Row E,52,5,86,97,10,High-pressure water jetting
+L10-AR,2011,-17,-7,Row 4,19,26,5,175,76,High-pressure water jetting
+L10-AR,2017,-30,-34,Row 1,14,28,83,173,83,High-pressure water jetting
+G17-AP,2016,-30,-19,Conductors,8,178,9,176,9,Mechanical cleaning methods
+G16-A,2001,-31,-26,Row 3-1,76,212,90,95,90,Mechanical cleaning methods
+K12-D,2004,0,-38,Row E,31,144,17,125,81,Mechanical cleaning methods
+L10-G,2008,-39,-13,Row 2-3,2,46,22,166,22,High-pressure water jetting
+L10-AD,2004,-14,-12,Risers,74,2,83,19,74,High-pressure water jetting
+K12-BD,2017,-12,-34,Row 2-3,12,37,16,183,71,High-pressure water jetting
+K12-BD,2004,-18,-32,Row 4,49,142,97,33,90,Mechanical cleaning methods
+L10-L,2009,-40,-18,Row C,20,5,60,142,60,High-pressure water jetting
+G17-AP,2015,-40,-24,Row 1,41,80,70,102,70,Mechanical cleaning methods
+K9-B,2007,-11,-26,Row 2,1,205,15,119,84,Mechanical cleaning methods
+K12-CC,2004,-19,-31,Row 2-3,12,15,2,129,12,High-pressure water jetting
+G16-A,2015,-30,-15,Rows and Elevations,4,180,50,104,81,Mechanical cleaning methods
+G14-B,2016,-11,-41,Caissons,37,240,38,99,38,Mechanical cleaning methods
+L10-E,2005,-13,-34,Row 5,56,128,91,20,86,Mechanical cleaning methods
+K12-CC,2004,-26,-30,Level 3,42,1,40,173,42,High-pressure water jetting
+K9-B,2004,-6,-24,Row A,40,12,46,113,73,High-pressure water jetting
+E17-A,2013,-41,-26,Level 1 ,45,16,84,106,84,High-pressure water jetting
+L5-A,2013,-32,-9,Row C,47,42,92,68,79,High-pressure water jetting
+L10-AC,2001,-40,-13,Row D,18,16,85,188,85,High-pressure water jetting
+K12-G,2014,-14,-26,Row B,23,145,93,100,85,Mechanical cleaning methods
+G14-A,2000,-13,-30,Row 3,17,81,12,160,79,Mechanical cleaning methods
+L10-M,2007,-6,-11,Caissons,14,20,64,82,11,High-pressure water jetting
+L5-A,2012,-41,-40,Risers,92,49,77,141,80,Mechanical cleaning methods
+L5-A,2006,-4,-6,Row C,9,150,30,39,7,Mechanical cleaning methods
+K12-G,2009,-6,4,Row 2,0,85,6,5,10,Mechanical cleaning methods
+L10-AC,2005,-17,-34,Row 3,100,28,52,150,90,Mechanical cleaning methods
+K12-BD,2010,-41,-7,Level 1 ,28,55,81,177,84,High-pressure water jetting
+L10-M,2001,-12,-13,Caissons,10,225,86,35,86,Mechanical cleaning methods
+L10-L,2010,-11,-7,Risers,20,218,55,122,7,Mechanical cleaning methods
+K12-BP,2001,-9,-18,Level 1,68,207,97,131,90,Mechanical cleaning methods
+G16-A,2003,-7,0,Row 1,46,29,48,57,5,High-pressure water jetting
+K12-G,2000,3,-4,Row A,36,245,11,71,8,Mechanical cleaning methods
+E17-A,2016,-38,-13,Row 5,43,120,9,75,43,Mechanical cleaning methods
+G14-B,2016,-39,-18,Level 1,89,80,90,184,90,Mechanical cleaning methods
+E17-A,2005,-10,4,Level 2 ,34,46,47,63,7,High-pressure water jetting
+L10-BB,1999,-37,0,Row 1,74,177,12,119,86,Mechanical cleaning methods
+L10-AR,2017,-37,-19,Level 2,14,63,48,199,48,Mechanical cleaning methods
+K9-C,2007,-8,-40,Level 1,11,89,59,165,86,Mechanical cleaning methods
+K12-BP,2017,-42,-8,Row 4,79,6,96,118,90,High-pressure water jetting
+G16-A,2007,-10,-8,Level 2,7,78,34,189,7,Mechanical cleaning methods
+K12-A,2003,-15,-31,Row D,1,17,57,10,76,Ultrasonic cleaning
+L10-BB,2016,-39,-24,Row 1-2,78,29,98,105,90,High-pressure water jetting
+D15-A,2013,-33,-32,Row 3,26,69,90,106,90,Mechanical cleaning methods
+K12-CC,2015,-17,-33,Row A,47,8,87,36,87,High-pressure water jetting
+L10-G,2017,-16,-11,Caissons,53,225,56,186,90,Mechanical cleaning methods
+K12-K,2015,-42,-4,Level 2 ,58,159,0,162,73,Mechanical cleaning methods
+L10-L,2015,-14,-34,Row 1-2,39,68,90,128,81,Mechanical cleaning methods
+K12-BD,2009,-12,-14,Level 3,75,109,62,180,86,Mechanical cleaning methods
+L10-E,2012,-42,-37,Level 3,11,92,12,147,82,Mechanical cleaning methods
+L10-AD,2016,0,-8,Row 1,59,41,53,155,5,High-pressure water jetting
+L10-AP,2016,-15,-7,Row 1,8,31,60,42,72,Laser cleaning
+L5-A,2007,-9,0,Row E,15,29,49,101,10,High-pressure water jetting
+L10-E,2015,-13,-33,Row A,10,129,81,110,76,Mechanical cleaning methods
+L10-BB,2006,-29,-15,Conductors,74,248,95,138,88,Mechanical cleaning methods
+K12-BP,2000,-33,-38,Row E,20,210,96,151,90,Mechanical cleaning methods
+L10-E,2011,-16,-16,Row 2,7,119,72,134,72,Mechanical cleaning methods
+L10-AD,2003,-26,-42,Level 1,26,9,0,176,26,High-pressure water jetting
+K2-A,2017,-10,-29,Level 3,67,222,2,114,73,Mechanical cleaning methods
+L10-BB,2009,3,-14,Row A,4,98,8,109,8,Mechanical cleaning methods
+L10-BB,2006,-10,-16,Row 3-1,73,139,10,94,86,Mechanical cleaning methods
+L10-AR,2011,-16,-11,Row B,24,49,30,179,71,High-pressure water jetting
+L10-F,2009,-30,-16,Row 2-3,52,97,74,67,82,Mechanical cleaning methods
+L10-AC,2012,-32,-8,Caissons,7,170,78,112,90,Mechanical cleaning methods
+L10-AD,2003,-14,-13,Conductors,69,20,81,193,86,High-pressure water jetting
+L10-E,2002,-13,-8,Level 1 ,60,24,88,167,79,High-pressure water jetting
+L10-C,2001,0,-41,Row D,90,22,9,45,82,Mechanical cleaning methods
+L5-A,2013,-38,-18,Caissons,21,0,43,42,43,Ultrasonic cleaning
+L5-A,2012,-13,-15,Row 1-2,75,199,100,98,85,Mechanical cleaning methods
+G17-A,2016,-7,-18,Row B,17,76,62,178,77,Mechanical cleaning methods
+G14-B,2009,-4,-27,Row B,43,26,63,13,82,Ultrasonic cleaning
+L10-AR,2014,0,-41,Level 1,9,234,91,143,74,Mechanical cleaning methods
+E17-A,2002,-4,-19,Row 5,85,114,4,90,72,Mechanical cleaning methods
+K9-A,2010,-27,-9,Risers,36,5,60,124,75,High-pressure water jetting
+K12-A,2005,-12,-42,Row D,15,131,53,107,53,Mechanical cleaning methods
+K12-BD,2004,-18,-14,Row 2,44,164,76,68,81,Mechanical cleaning methods
+K9-B,2001,-4,-39,Row 3-1,19,202,32,12,85,Mechanical cleaning methods
+K9-A,2015,-10,-19,Row C,74,240,76,19,83,Mechanical cleaning methods
+K12-BP,2005,-32,-12,Row A,67,15,87,57,70,High-pressure water jetting
+L10-D,2017,-37,-31,Rows and Elevations,61,19,97,36,90,High-pressure water jetting
+L10-BB,2000,-29,-15,Rows and Elevations,41,4,17,138,76,High-pressure water jetting
+K9-B,2004,0,-30,Level 1,44,94,77,119,80,Mechanical cleaning methods
+K12-K,2017,-7,-40,Level 2,53,41,2,126,81,High-pressure water jetting
+K12-CC,1999,-19,-14,Level 3,23,77,38,197,74,Mechanical cleaning methods
+L5-A,2004,-4,-32,Row 4,12,45,49,30,74,Laser cleaning
+L10-AP,2007,-10,-11,Risers,15,35,16,100,88,High-pressure water jetting
+G14-A,2016,-13,-14,Row D,15,151,12,177,77,Mechanical cleaning methods
+L10-EE,2017,-27,-27,Risers,50,162,30,184,50,Mechanical cleaning methods
+L10-G,2012,-29,-6,Level 3,76,6,76,181,86,High-pressure water jetting
+L5-A,2000,-24,-33,Row 2-3,60,26,64,120,64,High-pressure water jetting
+L10-F,2014,-24,-31,Row E,53,87,54,119,54,Mechanical cleaning methods
+K12-A,2003,0,-29,Row E,46,2,10,181,89,High-pressure water jetting
+K9-C,2017,-9,-4,Level 2,0,93,76,165,6,Mechanical cleaning methods
+K9-B,2005,-41,0,Row 1-2,25,220,73,77,75,Mechanical cleaning methods
+K12-A,2011,-32,-26,Row A,38,22,78,103,78,High-pressure water jetting
+D15-A,2009,-14,-34,Rows and Elevations,94,127,78,177,78,Mechanical cleaning methods
+L10-M,2004,-29,-27,Row 3,42,158,86,29,86,Mechanical cleaning methods
+L10-AD,2000,-26,-18,Row 2-3,50,14,43,135,85,High-pressure water jetting
+L10-AD,2014,-8,-39,Row 1,17,192,100,161,82,Mechanical cleaning methods
+K12-BD,2009,-12,-31,Row A,51,187,100,85,71,Mechanical cleaning methods
+K12-A,2006,3,-11,Row D,20,158,62,71,9,Mechanical cleaning methods
+L10-M,2000,-13,-42,Conductors,98,192,60,115,90,Mechanical cleaning methods
+K12-K,2014,-8,-39,Level 3,52,103,94,102,86,Mechanical cleaning methods
+L10-C,2010,-8,-12,Row E,99,225,91,121,11,Mechanical cleaning methods
+K12-C,2004,-37,-26,Level 3,6,15,11,180,11,High-pressure water jetting
+K12-G,2002,-27,-9,Level 1 ,44,0,41,153,83,High-pressure water jetting
+K9-C,2012,-15,-13,Row 1-2,5,127,67,165,72,Mechanical cleaning methods
+E17-A,2011,-24,-8,Conductors,24,152,98,115,81,Mechanical cleaning methods
+L10-G,2006,-39,-30,Row 2-3,8,14,45,172,45,High-pressure water jetting
+L10-D,2006,-38,-39,Row 1-2,49,67,26,166,90,Mechanical cleaning methods
+L10-F,2012,0,-12,Row 5,20,41,99,95,10,High-pressure water jetting
+L10-B,2011,-10,-27,Row 2,77,25,17,156,76,High-pressure water jetting
+L10-B,2001,-39,-6,Caissons,34,27,79,162,70,High-pressure water jetting
+L10-G,2002,-6,-27,Row 5,3,75,18,179,90,Mechanical cleaning methods
+L10-D,2015,-4,-4,Row 1,4,101,39,119,5,Mechanical cleaning methods
+K12-BD,1999,-8,-32,Row D,44,8,20,110,77,High-pressure water jetting
+L10-L,2011,-19,-15,Row 3,87,241,31,188,71,Mechanical cleaning methods
+E17-A,2009,-29,-42,Row 2-3,19,21,80,83,70,High-pressure water jetting
+G14-B,2015,-26,-39,Row 3,45,230,0,140,45,Mechanical cleaning methods
+L10-L,2006,-4,-40,Level 1,30,151,93,84,83,Mechanical cleaning methods
+K12-K,2017,-24,-34,Row D,28,176,86,129,86,Mechanical cleaning methods
+L10-E,2007,-38,-6,Row 1-2,8,73,91,188,72,Mechanical cleaning methods
+K12-CC,2006,-30,-6,Row B,75,46,98,191,74,High-pressure water jetting
+L10-AP,2002,-32,-39,Row E,31,238,17,88,70,Mechanical cleaning methods
+L10-BB,2006,-42,-10,Row B,18,26,100,104,90,High-pressure water jetting
+L10-AR,2015,-11,-31,Row 2,73,242,76,185,78,Mechanical cleaning methods
+K12-C,2013,-12,-4,Row E,23,240,86,120,7,Mechanical cleaning methods
+L10-BB,2016,-37,-12,Level 3,59,248,95,107,90,Mechanical cleaning methods
+L5-A,1999,-11,-24,Row 5,40,137,3,90,88,Mechanical cleaning methods
+K12-CC,2009,-13,-42,Risers,14,196,46,147,46,Mechanical cleaning methods
+G17-A,2014,-6,-15,Level 2,46,43,35,92,86,High-pressure water jetting
+K2-A,2001,-19,0,Level 1 ,67,14,90,172,8,High-pressure water jetting
+L10-BB,2001,-29,-18,Row C,6,165,72,151,91,Mechanical cleaning methods
+L10-C,2016,-11,-10,Row 1,19,246,87,173,83,Mechanical cleaning methods
+L10-EE,2005,-33,-17,Level 1,39,28,90,62,90,High-pressure water jetting
+G17-A,2007,-39,-39,Row 5,29,71,22,130,79,Mechanical cleaning methods
+L10-AR,2014,-31,-11,Conductors,65,75,5,15,72,Mechanical cleaning methods
+K12-CC,2003,-15,-7,Row 1,20,185,98,112,90,Mechanical cleaning methods
+L10-AP,2000,-13,-12,Level 1,10,42,74,91,83,High-pressure water jetting
+D15-A,2009,-39,-42,Level 2 ,32,113,4,52,14,Mechanical cleaning methods
+G16-A,2001,-37,-19,Row 1-2,74,137,81,92,81,Mechanical cleaning methods
+L10-C,2008,-31,-9,Level 1,87,24,99,75,75,Mechanical cleaning methods
+K12-A,1999,-17,-41,Risers,65,0,4,21,65,Laser cleaning
+L10-L,2015,3,-24,Row D,20,32,92,181,85,High-pressure water jetting
+K12-G,2016,-29,-12,Conductors,50,14,13,156,83,High-pressure water jetting
+K9-B,2016,-18,-8,Row 5,18,94,22,176,85,Mechanical cleaning methods
+K9-B,2001,-15,-19,Level 2 ,17,158,85,194,84,Mechanical cleaning methods
+L10-D,2009,-31,-32,Row E,52,25,27,132,52,High-pressure water jetting
+E17-A,2001,-16,-18,Level 1,44,25,27,191,83,High-pressure water jetting
+K12-CC,2000,-9,-26,Row A,95,25,100,163,73,Mechanical cleaning methods
+L10-AC,2015,-31,-16,Row B,32,20,76,133,71,High-pressure water jetting
+L10-D,2004,3,-39,Row 1-2,24,89,77,33,81,Mechanical cleaning methods
+L10-E,1999,-42,-7,Level 2 ,49,191,45,103,49,Mechanical cleaning methods
+K12-D,2001,-18,0,Row 1-2,25,14,91,190,6,High-pressure water jetting
+L10-AC,2007,-38,-30,Level 1 ,8,63,58,174,58,Mechanical cleaning methods
+L10-B,2006,-30,-14,Conductors,27,1,86,139,75,High-pressure water jetting
+L10-L,2003,-32,-31,Level 1 ,12,128,83,170,83,Mechanical cleaning methods
+L10-C,2013,-37,-37,Row 2-3,12,196,96,30,87,Mechanical cleaning methods
+L10-E,2002,0,-6,Level 1 ,88,193,34,116,10,Mechanical cleaning methods
+K12-A,2001,-7,-26,Row 3,87,197,79,168,83,Mechanical cleaning methods
+L10-M,2017,-24,-40,Risers,96,172,97,90,90,Mechanical cleaning methods
+E17-A,2015,-34,4,Level 2 ,16,3,78,90,80,High-pressure water jetting
+L10-E,2012,-29,-29,Row A,10,166,52,149,52,Mechanical cleaning methods
+K12-C,2004,-42,-31,Row C,22,1,29,199,84,High-pressure water jetting
+K12-D,2005,-27,-24,Row 2-3,44,3,92,179,90,High-pressure water jetting
+L10-AP,2006,-6,-31,Row 3,42,124,91,198,70,Mechanical cleaning methods
+K9-A,2006,3,-14,Rows and Elevations,60,140,4,91,11,Mechanical cleaning methods
+L10-E,2007,-6,-33,Row A,31,81,35,45,91,Mechanical cleaning methods
+K12-BD,2010,0,-37,Row 2,3,61,36,9,91,Mechanical cleaning methods
+K12-G,2000,-10,-14,Level 1,74,29,42,164,81,High-pressure water jetting
+K12-BP,2011,-14,-42,Row D,66,21,79,108,79,High-pressure water jetting
+K12-BP,2015,-34,-42,Row C,15,130,97,103,86,Mechanical cleaning methods
+K12-A,2003,-29,-32,Row A,31,17,87,154,87,High-pressure water jetting
+L10-E,2002,-39,-32,Level 2,14,145,42,28,81,Mechanical cleaning methods
+G17-AP,2010,-12,-19,Row 2-3,87,35,90,44,76,Mechanical cleaning methods
+G17-A,2007,-12,-37,Level 3,2,203,89,163,89,Mechanical cleaning methods
+L10-E,2009,-16,-18,Row E,22,138,95,7,83,Mechanical cleaning methods
+L10-M,2004,-27,-26,Row B,1,63,91,165,90,Mechanical cleaning methods
+G14-B,2011,-40,-39,Row D,40,145,86,13,80,Mechanical cleaning methods
+K12-K,2007,-14,-17,Row A,28,104,23,102,76,Mechanical cleaning methods
+K12-BP,2001,-8,-6,Row B,4,206,100,122,8,Mechanical cleaning methods
+L10-F,2004,-34,-29,Rows and Elevations,52,50,20,64,52,High-pressure water jetting
+K12-BP,2010,-15,-31,Row 3,75,98,89,188,76,Mechanical cleaning methods
+L10-AD,2008,-38,-32,Row 5,81,26,28,88,81,High-pressure water jetting
+L10-D,2010,3,-11,Row D,91,81,92,150,10,Mechanical cleaning methods
+K9-C,2003,-29,-18,Level 2 ,46,190,5,98,81,Mechanical cleaning methods
+K12-BP,2004,-17,-26,Level 3,55,17,91,154,73,High-pressure water jetting
+L10-D,2011,-15,-24,Level 2 ,78,86,77,127,77,Mechanical cleaning methods
+L10-BB,2014,-9,-18,Row 3,8,154,100,97,81,Mechanical cleaning methods
+K12-CC,2003,-10,-42,Rows and Elevations,0,14,90,138,90,High-pressure water jetting
+K9-A,2008,-16,-24,Rows and Elevations,21,212,40,104,79,Mechanical cleaning methods
+L10-C,2000,-19,-4,Level 3,35,11,41,32,91,Ultrasonic cleaning
+L10-L,2014,-4,-30,Level 2 ,70,21,49,35,71,Laser cleaning
+G14-A,2015,-33,-39,Level 1 ,69,13,59,121,89,High-pressure water jetting
+K12-CC,2011,-12,-29,Caissons,32,88,84,149,84,Mechanical cleaning methods
+L10-EE,2013,-34,-33,Row 3-1,85,34,68,133,85,Mechanical cleaning methods
+K2-A,2016,-40,4,Level 1 ,17,164,61,191,72,Mechanical cleaning methods
+L10-C,2013,-12,0,Level 3,67,227,28,91,8,Mechanical cleaning methods
+K12-C,2014,-10,-7,Risers,24,174,16,99,9,Mechanical cleaning methods
+K12-BP,2004,-7,-4,Row A,13,6,25,51,10,High-pressure water jetting
+K9-A,2010,-11,-11,Rows and Elevations,55,111,89,131,79,Mechanical cleaning methods
+L10-B,2017,-26,-33,Row E,15,41,62,137,62,High-pressure water jetting
+K12-C,2010,-11,-4,Caissons,37,162,89,159,8,Mechanical cleaning methods
+G17-A,2015,-9,-27,Row 3,13,250,55,146,76,Mechanical cleaning methods
+K12-CC,2013,-38,-7,Row 2,50,14,30,83,78,High-pressure water jetting
+G17-AP,1999,-24,-13,Row 1-2,45,250,18,110,70,Mechanical cleaning methods
+L10-F,2006,-31,-15,Row 5,58,76,76,108,81,Mechanical cleaning methods
+G17-A,2013,-26,-27,Row 4,17,158,14,67,17,Mechanical cleaning methods
+L10-B,2011,-42,-27,Row E,46,159,4,29,46,Mechanical cleaning methods
+K2-A,2003,-40,-24,Row 1-2,29,165,64,146,64,Mechanical cleaning methods
+G17-AP,2016,-17,4,Risers,41,199,16,122,9,Mechanical cleaning methods
+D15-A,2000,-19,-12,Level 2,18,82,89,10,85,Mechanical cleaning methods
+K9-A,2002,-33,-4,Row 3,32,17,60,130,83,High-pressure water jetting
+L10-B,2008,0,-7,Row 3-1,50,43,74,183,9,High-pressure water jetting
+K12-BD,2006,-11,-26,Rows and Elevations,49,248,78,175,71,Mechanical cleaning methods
+G14-B,2015,-39,-11,Row E,48,156,30,180,48,Mechanical cleaning methods
+K12-K,2007,-19,-40,Rows and Elevations,52,27,97,125,90,High-pressure water jetting
+L5-A,2002,-31,4,Level 1,51,0,26,167,84,High-pressure water jetting
+K12-A,2012,3,0,Row C,74,201,58,101,75,Mechanical cleaning methods
+L10-L,2005,-41,-34,Level 1 ,89,4,35,197,85,Mechanical cleaning methods
+L10-D,2013,-38,-34,Level 1,95,23,86,127,85,Mechanical cleaning methods
+G16-A,2012,-29,-40,Row 2-3,7,23,43,121,43,High-pressure water jetting
+E17-A,2011,-18,-14,Caissons,25,95,63,148,78,Mechanical cleaning methods
+K9-A,2016,-13,-11,Level 2,43,36,77,105,87,High-pressure water jetting
+L10-EE,2001,-12,-11,Row D,52,64,93,77,74,Mechanical cleaning methods
+L10-L,2003,-24,-40,Row 3-1,31,136,35,140,35,Mechanical cleaning methods
+K12-D,2005,-24,-41,Row E,18,175,70,29,70,Mechanical cleaning methods
+K12-C,2009,-6,-4,Row D,94,4,24,27,10,Mechanical cleaning methods
+D15-A,1999,-27,-7,Risers,7,197,23,164,83,Mechanical cleaning methods
+L10-AR,2007,-7,0,Row 3-1,44,14,57,77,11,High-pressure water jetting
+K12-BP,2007,-37,-31,Row B,17,0,51,80,51,High-pressure water jetting
+K9-A,2014,-15,-42,Level 1 ,7,132,15,106,15,Mechanical cleaning methods
+D15-A,2014,-41,-16,Row D,64,248,6,189,64,Mechanical cleaning methods
+L10-L,2014,-41,-34,Level 2,77,241,21,164,91,Mechanical cleaning methods
+G14-A,2011,-26,-34,Rows and Elevations,93,26,84,105,90,Mechanical cleaning methods
+L10-AR,2009,-15,-11,Conductors,42,5,75,116,82,High-pressure water jetting
+K12-K,2007,-17,-27,Level 2 ,48,38,94,191,91,High-pressure water jetting
+G17-AP,2016,-15,-14,Row 1-2,23,27,44,57,79,High-pressure water jetting
+K12-CC,2014,-8,-9,Row 5,72,133,79,159,10,Mechanical cleaning methods
+L10-D,2011,-11,-14,Caissons,0,3,19,104,91,High-pressure water jetting
+G17-A,2008,-13,-32,Row 5,4,98,88,149,70,Mechanical cleaning methods
+E17-A,2006,-4,-24,Conductors,55,67,46,64,87,Mechanical cleaning methods
+G17-A,2006,-32,-8,Rows and Elevations,23,69,62,169,90,Mechanical cleaning methods
+L10-AD,2005,-34,-12,Level 2,6,13,35,92,85,High-pressure water jetting
+K12-BD,2000,-37,-24,Caissons,82,93,60,44,82,Mechanical cleaning methods
+L10-AD,2014,-33,-15,Row E,24,37,91,185,79,High-pressure water jetting
+L10-BB,2006,-32,-32,Risers,10,34,41,68,41,High-pressure water jetting
+K12-CC,2004,-9,4,Conductors,17,67,38,186,10,Mechanical cleaning methods
+K12-CC,2014,-6,-17,Rows and Elevations,23,172,83,7,88,Mechanical cleaning methods
+L5-A,2002,-16,-12,Row 3-1,50,21,22,96,77,High-pressure water jetting
+K12-D,2005,-8,-32,Row 2,61,21,77,92,75,High-pressure water jetting
