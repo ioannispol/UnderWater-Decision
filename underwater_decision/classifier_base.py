@@ -44,6 +44,11 @@ def print_and_save_output(output, file_path):
 
 def save_model(model, file_path):
     pickle.dump(model, open(file_path, 'wb'))
+    
+def load_model(file_path):
+    with open(file_path, 'rb') as file:
+        model = pickle.load(file)
+    return model
 
 
 def get_decision_path(model, features_test, sample_id):
