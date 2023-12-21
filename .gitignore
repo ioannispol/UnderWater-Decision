@@ -170,8 +170,8 @@ data/*.zip
 experiments/*
 
 # Images
-*.png
-./notebooks/*.png
+# *.png
+notebooks/*.png
 
 # Gradio
 /flagged/
