@@ -15,8 +15,8 @@ class MarineFoulingCleaningEnv(gym.Env):
         self.observation_space = spaces.Box(
             low=np.array([0, 0, 0, 0], dtype=np.float32),
             high=np.array([100, 100, 100, 100], dtype=np.float32),
-            dtype=np.float32
-            )
+            dtype=np.float32,
+        )
 
         # Define an action space range
         self.action_space = spaces.Discrete(4)  # Assuming 4 different cleaning methods
@@ -34,12 +34,14 @@ class MarineFoulingCleaningEnv(gym.Env):
 
     def reset(self):
         # Reset the state using a new sample from the dataset
-        self.state = self.dataset.sample()[['hardPerc', 'hardmm', 'softPerc', 'softmm']].values.flatten()
+        self.state = self.dataset.sample()[
+            ["hardPerc", "hardmm", "softPerc", "softmm"]
+        ].values.flatten()
         self.current_step = 0
         return self.state
 
-    def render(self, mode='console'):
-        if mode == 'console':
+    def render(self, mode="console"):
+        if mode == "console":
             print(f"Current state: {self.state}")
 
     def seed(self, seed=None):
@@ -61,20 +63,21 @@ class MarineFoulingCleaningEnv(gym.Env):
         # Define the efficiency of each cleaning method
         # These values represent the percentage reduction in fouling
         efficiency = {
-            0: {'hard': 0.3, 'soft': 0.2},  # Cleaning method 0
-            1: {'hard': 0.1, 'soft': 0.5},  # Cleaning method 1
-            2: {'hard': 0.4, 'soft': 0.1},  # Cleaning method 2
-            3: {'hard': 0.2, 'soft': 0.3}   # Cleaning method 3
+            0: {"hard": 0.3, "soft": 0.2},  # Cleaning method 0
+            1: {"hard": 0.1, "soft": 0.5},  # Cleaning method 1
+            2: {"hard": 0.4, "soft": 0.1},  # Cleaning method 2
+            3: {"hard": 0.2, "soft": 0.3},  # Cleaning method 3
         }
 
         # Update the state based on the efficiency of the chosen action
-        hard_fouling_reduction = efficiency[action]['hard']
-        soft_fouling_reduction = efficiency[action]['soft']
+        hard_fouling_reduction = efficiency[action]["hard"]
+        soft_fouling_reduction = efficiency[action]["soft"]
 
         # Apply reduction to hard and soft fouling components
         self.state = [
-            max(0, value - hard_fouling_reduction * value) if index < 2 else
-            max(0, value - soft_fouling_reduction * value)
+            max(0, value - hard_fouling_reduction * value)
+            if index < 2
+            else max(0, value - soft_fouling_reduction * value)
             for index, value in enumerate(self.state)
         ]
 
@@ -82,8 +85,12 @@ class MarineFoulingCleaningEnv(gym.Env):
 
     def _is_done(self):
         # Check if the fouling levels are below the success threshold
-        fouling_levels = self.state[:4]  # Assuming the first four elements are fouling levels
-        fouling_reduced = all(fouling <= self.success_threshold for fouling in fouling_levels)
+        fouling_levels = self.state[
+            :4
+        ]  # Assuming the first four elements are fouling levels
+        fouling_reduced = all(
+            fouling <= self.success_threshold for fouling in fouling_levels
+        )
 
         # Check if maximum number of steps has been reached
         max_steps_reached = self.current_step >= self.max_steps

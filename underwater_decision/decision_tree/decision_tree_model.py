@@ -2,7 +2,15 @@ import numpy as np
 
 
 class Node:
-    def __init__(self, feature_index=None, threshold=None, left=None, right=None, info_gain=None, value=None):
+    def __init__(
+        self,
+        feature_index=None,
+        threshold=None,
+        left=None,
+        right=None,
+        info_gain=None,
+        value=None,
+    ):
         self.feature_index = feature_index
         self.threshold = threshold
         self.left = left
@@ -33,18 +41,28 @@ class DecisionTreeModel:
         n_labels = len(np.unique(y))
 
         # stopping criteria
-        if (depth >= self.max_depth or n_labels == 1 or n_samples < self.min_samples_split):
+        if (
+            depth >= self.max_depth
+            or n_labels == 1
+            or n_samples < self.min_samples_split
+        ):
             leaf_value = self._most_common_label(y)
             return Node(value=leaf_value)
 
         # greedily select the best split according to information gain
-        best_feature, best_threshold, best_info_gain = self._best_split(X, y, n_samples, n_features)
+        best_feature, best_threshold, best_info_gain = self._best_split(
+            X, y, n_samples, n_features
+        )
 
         # grow the children that result from the split
-        left_X, left_y, right_X, right_y = self._split(X, y, best_feature, best_threshold)
-        left_child = self._grow_tree(left_X, left_y, depth+1)
-        right_child = self._grow_tree(right_X, right_y, depth+1)
-        return Node(best_feature, best_threshold, left_child, right_child, best_info_gain)
+        left_X, left_y, right_X, right_y = self._split(
+            X, y, best_feature, best_threshold
+        )
+        left_child = self._grow_tree(left_X, left_y, depth + 1)
+        right_child = self._grow_tree(right_X, right_y, depth + 1)
+        return Node(
+            best_feature, best_threshold, left_child, right_child, best_info_gain
+        )
 
     # find the best split
     def _best_split(self, X, y, n_samples, n_features):

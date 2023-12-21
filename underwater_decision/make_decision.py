@@ -4,9 +4,9 @@ from sklearn.ensemble import RandomForestClassifier
 import xgboost as xgb
 
 
-decision_tree_model = load_model('path_to_decision_tree_model.pkl')
-random_forest_model = load_model('path_to_random_forest_model.pkl')
-xgboost_model = load_model('path_to_xgboost_model.pkl')
+decision_tree_model = load_model("path_to_decision_tree_model.pkl")
+random_forest_model = load_model("path_to_random_forest_model.pkl")
+xgboost_model = load_model("path_to_xgboost_model.pkl")
 
 
 def make_decision(features):

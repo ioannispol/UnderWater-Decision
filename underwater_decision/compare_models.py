@@ -8,7 +8,12 @@ from sklearn.metrics import accuracy_score, classification_report
 import xgboost as xgb
 
 # Import common functions from the classifier_base module
-from classifier_base import (load_dataset, encode_columns, get_features_target, split_dataset)
+from classifier_base import (
+    load_dataset,
+    encode_columns,
+    get_features_target,
+    split_dataset,
+)
 
 
 # Function to train Decision Tree
@@ -27,7 +32,9 @@ def train_random_forest(features_train, target_train):
 
 # Function to train XGBoost
 def train_xgboost(features_train, target_train):
-    xgb_model = xgb.XGBClassifier(random_state=42, use_label_encoder=False, eval_metric='mlogloss')
+    xgb_model = xgb.XGBClassifier(
+        random_state=42, use_label_encoder=False, eval_metric="mlogloss"
+    )
     xgb_model.fit(features_train, target_train)
     return xgb_model
 
@@ -41,9 +48,15 @@ def evaluate_model(model, features_test, target_test):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Compare Decision Trees, Random Forests, and XGBoost models.")
-    parser.add_argument("--data_file", type=str, default="default_synthetic_dataset.csv",
-                        help="Filename of the dataset.")
+    parser = argparse.ArgumentParser(
+        description="Compare Decision Trees, Random Forests, and XGBoost models."
+    )
+    parser.add_argument(
+        "--data_file",
+        type=str,
+        default="default_synthetic_dataset.csv",
+        help="Filename of the dataset.",
+    )
     args = parser.parse_args()
 
     # Load the dataset
@@ -51,16 +64,32 @@ def main():
 
     # Encode the categorical columns
     # Assuming encode_columns returns a tuple: (encoded_dataset, encoders)
-    encoded_dataset, encoders = encode_columns(dataset, ['platform', 'item', 'Recommended_Cleaning_Method'])
+    encoded_dataset, encoders = encode_columns(
+        dataset, ["platform", "item", "Recommended_Cleaning_Method"]
+    )
 
     # Get the features and target
-    feature_columns = ['platform', 'year', 'depthmin', 'depthmax', 'item', 'hardPerc', 'hardmm', 'softPerc', 'softmm',
-                       'Total_Area_Coverage']
-    target_column = 'Recommended_Cleaning_Method'
-    features, target = get_features_target(encoded_dataset, feature_columns, target_column)
+    feature_columns = [
+        "platform",
+        "year",
+        "depthmin",
+        "depthmax",
+        "item",
+        "hardPerc",
+        "hardmm",
+        "softPerc",
+        "softmm",
+        "Total_Area_Coverage",
+    ]
+    target_column = "Recommended_Cleaning_Method"
+    features, target = get_features_target(
+        encoded_dataset, feature_columns, target_column
+    )
 
     # Split the dataset
-    features_train, features_test, target_train, target_test = split_dataset(features, target, test_size=0.3)
+    features_train, features_test, target_train, target_test = split_dataset(
+        features, target, test_size=0.3
+    )
 
     # Train and evaluate Decision Tree
     dt_model = train_decision_tree(features_train, target_train)

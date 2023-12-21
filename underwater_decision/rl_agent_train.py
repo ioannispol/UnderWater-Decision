@@ -5,7 +5,9 @@ from underwater_decision.rl_model.marine_fouling_rl import MarineFoulingCleaning
 from underwater_decision.rl_model.rl_metrics import CustomCallback, MetricLogger
 
 # Initialize your custom environment
-env = MarineFoulingCleaningEnv('/workspaces/UnderWater-Decision/data/default_synthetic_dataset.csv')
+env = MarineFoulingCleaningEnv(
+    "/workspaces/UnderWater-Decision/data/default_synthetic_dataset.csv"
+)
 
 # Initialize the metric logger
 logger = MetricLogger()

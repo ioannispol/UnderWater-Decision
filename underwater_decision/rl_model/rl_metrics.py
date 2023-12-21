@@ -7,11 +7,11 @@ class CustomCallback(BaseCallback):
         self.logger = logger
 
     def _on_step(self):
-        infos = self.locals.get('infos')
+        infos = self.locals.get("infos")
         if infos:
             for info in infos:
-                if 'reward' in info:
-                    self.logger.log_reward(info['reward'])
+                if "reward" in info:
+                    self.logger.log_reward(info["reward"])
         return True
 
 
