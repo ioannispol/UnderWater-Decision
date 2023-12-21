@@ -14,7 +14,4 @@ This is my package.
 
 
 # Example output
-![](<docs/Screenshot 2023-12-20 132713.png>)
-
-![Alt text](<docs/Screenshot 2023-12-20 132741.png>)
-![Alt text](<docs/Screenshot 2023-12-20 134757.png>)
+![Alt text](<docs/images/Screenshot 2023-12-20 132713.png>) ![Alt text](<docs/images/Screenshot 2023-12-20 132741.png>) ![Alt text](<docs/images/Screenshot 2023-12-20 134757.png>)
