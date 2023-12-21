@@ -11,3 +11,10 @@ This is my package.
 ### Include submodules
 
 ```git clone --recurse-submodules git@github.com:ioannispol/UnderWater-Decision.git```
+
+
+# Example output
+![](<docs/Screenshot 2023-12-20 132713.png>)
+
+![Alt text](<docs/Screenshot 2023-12-20 132741.png>)
+![Alt text](<docs/Screenshot 2023-12-20 134757.png>)

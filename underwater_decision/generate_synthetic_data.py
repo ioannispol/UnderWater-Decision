@@ -9,11 +9,33 @@ from sklearn.preprocessing import LabelEncoder
 
 
 def read_config(config_path):
+    """
+    Read the configuration file.
+
+    Parameters:
+    config_path (str): The path to the configuration file.
+
+    Returns:
+    dict: The configuration parameters.
+    """
     with open(config_path, 'r') as stream:
         return yaml.safe_load(stream)
 
 
 def normalize_weights(weights):
+    """
+    Normalize the weights so that they sum up to 1.
+
+    Parameters
+    ----------
+    weights : list
+        List of weights.
+
+    Returns
+    -------
+    list
+        List of normalized weights.
+    """
     total = sum(weights)
     return [float(w) / total for w in weights]
 
@@ -22,14 +44,34 @@ def determine_cleaning_method(hard_perc, hard_mm, soft_perc, soft_mm):
     """
     Determines the cleaning method based on the fouling characteristics.
 
-    Parameters:
-    - hard_perc (int): Percentage of hard fouling.
-    - hard_mm (int): Thickness of hard fouling in millimeters.
-    - soft_perc (int): Percentage of soft fouling.
-    - soft_mm (int): Thickness of soft fouling in millimeters.
+    Parameters
+    ----------
+    hard_perc : int
+        Percentage of hard fouling.
+    hard_mm : int
+        Thickness of hard fouling in millimeters.
+    soft_perc : int
+        Percentage of soft fouling.
+    soft_mm : int
+        Thickness of soft fouling in millimeters.
 
-    Returns:
-    - str: The recommended cleaning method.
+    Returns
+    -------
+    str
+        The recommended cleaning method.
+
+    Examples
+    --------
+    >>> determine_cleaning_method(90, 65, 70, 50)
+    'Mechanical cleaning methods'
+    >>> determine_cleaning_method(80, 55, 80, 60)
+    'High-pressure water jetting'
+    >>> determine_cleaning_method(70, 45, 70, 40)
+    'Cavitation water jetting'
+    >>> determine_cleaning_method(60, 35, 60, 30)
+    'Ultrasonic cleaning'
+    >>> determine_cleaning_method(50, 25, 50, 20)
+    'Laser cleaning'
     """
 
     # Mechanical cleaning for severe hard fouling
@@ -56,13 +98,26 @@ def area_coverage_by_fouling_and_depth(hard_perc: int, soft_perc: int, depth: in
     """
     Calculate the area coverage by fouling at a given depth.
 
-    Args:
-    hard_perc (int): The percentage of hard fouling.
-    soft_perc (int): The percentage of soft fouling.
-    depth (int): The depth in meters (negative for below sea level).
+    Parameters
+    ----------
+    hard_perc : int
+        The percentage of hard fouling.
+    soft_perc : int
+        The percentage of soft fouling.
+    depth : int
+        The depth in meters (negative for below sea level).
 
-    Returns:
-    int: The fouling coverage percentage.
+    Returns
+    -------
+    int
+        The fouling coverage percentage.
+
+    Examples
+    --------
+    >>> area_coverage_by_fouling_and_depth(50, 30, -10)
+    50
+    >>> area_coverage_by_fouling_and_depth(30, 50, -20)
+    50
     """
     # Handle shallow depths with less coverage due to wave action and cleaning
     if SHALLOW_DEPTH_LOWER_BOUND <= depth <= SHALLOW_DEPTH_UPPER_BOUND:
@@ -81,6 +136,31 @@ def area_coverage_by_fouling_and_depth(hard_perc: int, soft_perc: int, depth: in
 
 
 def adjust_and_normalize_weights(weights, expected_length):
+    """
+    Adjust the length of the weights list to match the expected length and normalize the weights.
+
+    If the length of the weights list is greater than the expected length, the list is truncated.
+    If the length of the weights list is less than the expected length, the list is extended by repeating the last element.
+
+    Parameters
+    ----------
+    weights : list
+        The list of weights.
+    expected_length : int
+        The expected length of the weights list.
+
+    Returns
+    -------
+    list
+        The adjusted and normalized weights list.
+
+    Examples
+    --------
+    >>> weights = [0.1, 0.2, 0.3, 0.4]
+    >>> expected_length = 6
+    >>> adjust_and_normalize_weights(weights, expected_length)
+    [0.1, 0.2, 0.3, 0.4, 0.4, 0.4]
+    """
     if len(weights) > expected_length:
         weights = weights[:expected_length]
     elif len(weights) < expected_length:
