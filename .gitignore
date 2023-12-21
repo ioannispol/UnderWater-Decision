@@ -175,3 +175,6 @@ experiments/*
 
 # Gradio
 /flagged/
+
+# Notebooks
+notebooks/*.ipynb
