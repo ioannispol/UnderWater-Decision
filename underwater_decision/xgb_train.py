@@ -24,17 +24,17 @@ from underwater_decision.classifier_base import (
 # TODO: Use classes to encapsulate the functionality of the model
 def train_xgboost_with_grid_search(features_train, target_train):
     param_grid = {
-        "n_estimators": [100, 200],
-        "learning_rate": [0.01, 0.1],
-        "max_depth": [3, 5, 7],
+        "n_estimators": [100, 200, 300, 500],
+        "learning_rate": [0.01, 0.1, 0.001],
+        "max_depth": [3, 5, 7, 9],
         "subsample": [0.8, 1],
         "colsample_bytree": [0.8, 1],
     }
     xgb_model = xgb.XGBClassifier(
-        use_label_encoder=False, eval_metric="mlogloss", random_state=42
+        use_label_encoder=False, eval_metric="auc", random_state=42, objective='multi: softmax'
     )
     grid_search = GridSearchCV(
-        xgb_model, param_grid, cv=5, scoring="accuracy", n_jobs=-1, verbose=1
+        xgb_model, param_grid, cv=8, scoring="accuracy", n_jobs=-1, verbose=3
     )
     grid_search.fit(features_train, target_train)
     return (
@@ -42,6 +42,31 @@ def train_xgboost_with_grid_search(features_train, target_train):
         grid_search.best_params_,
         grid_search.best_score_,
     )
+
+
+def train_xgboost(features_train, target_train, features_val, target_val, params):
+    xgb_model = xgb.XGBClassifier(
+        n_estimators=params['n_estimators'],
+        learning_rate=params['learning_rate'],
+        max_depth=params['max_depth'],
+        subsample=params['subsample'],
+        colsample_bytree=params['colsample_bytree'],
+        use_label_encoder=False,
+        eval_metric="auc",
+        random_state=42
+    )
+    
+    eval_set = [(features_val, target_val)]
+    xgb_model.fit(
+        features_train,
+        target_train,
+        early_stopping_rounds=params['early_stopping_rounds'],
+        eval_set=eval_set,
+        verbose=True
+    )
+    
+    return xgb_model
+
 
 
 def plot_feature_importance(model, feature_columns, file_path):
@@ -125,35 +150,35 @@ def get_args():
         "--model_file",
         "-m",
         type=str,
-        default="xgboost_model.pkl",
+        default="xgboost_model_new.pkl",
         help="Filename to save the trained model.",
     )
     parser.add_argument(
         "--performance_file",
         "-p",
         type=str,
-        default="xgboost_performance.txt",
+        default="xgboost_performance_new.txt",
         help="Filename for the model's performance metrics.",
     )
     parser.add_argument(
         "--feature_importance_file",
         "-fi",
         type=str,
-        default="feature_importance.png",
+        default="feature_importance_new.png",
         help="Filename for the feature importance plot.",
     )
     parser.add_argument(
         "--tree_plot_file",
         "-tp",
         type=str,
-        default="xgb_tree.png",
+        default="xgb_tree_new.png",
         help="Filename for the XGBoost tree plot.",
     )
     parser.add_argument(
         "--learning_curve_file",
         "-lc",
         type=str,
-        default="learning_curve.png",
+        default="learning_curve_new.png",
         help="Filename for the learning curve plot.",
     )
     parser.add_argument(
@@ -206,7 +231,7 @@ if __name__ == "__main__":
 
         # Split the dataset
         features_train, features_test, target_train, target_test = split_dataset(
-            features, target, test_size=0.3
+            features, target, test_size=0.4
         )
 
         # Train the XGBoost model with Grid Search
