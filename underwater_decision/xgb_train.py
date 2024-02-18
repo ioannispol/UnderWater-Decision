@@ -19,6 +19,7 @@ from underwater_decision.classifier_base import (
     print_and_save_output,
     save_model,
 )
+from underwater_decision import MFLossObjective
 
 
 # TODO: Use classes to encapsulate the functionality of the model

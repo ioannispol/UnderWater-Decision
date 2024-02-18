@@ -52,22 +52,33 @@ class MFLossObjective(MFLoss):
     def __init__(self, weights, lambda_reg):
         super().__init__(weights, lambda_reg)
         
-    def xgb_obj(self, y_true, y_pred):
-        """
-        Custom objective function for XGBoost that returns gradient and hessian.
-        """
-        # Placeholder for gradient and hessian calculation
-        grad = self._calculate_gradient(y_true, y_pred)
-        hess = self._calculate_hessian(y_true, y_pred)
+    def xgb_obj(self, preds, dtrain):
+        labels = dtrain.get_label()
+        preds = np.clip(preds, 1e-7, 1 - 1e-7)
+        
+        # Calculate gradients
+        grad = self._calculate_gradient(labels, preds)
+        
+        # Calculate hessians
+        hess = self._calculate_hessian(labels, preds)
+        
         return grad, hess
-    
+
     def _calculate_gradient(self, y_true, y_pred):
-        # Simplified gradient calculation
-        grad = y_pred - y_true
+        weights_reshaped = np.array(self.weights).reshape(1, -1)  # Reshape to (1, num_classes)
+        print(len(weights_reshaped))
+
+        # # Calculate gradient considering the broadcasting of weights
+        # grad = np.where(y_pred < weights_reshaped, 
+        #                 -weights_reshaped * (y_true / y_pred) + self.lambda_reg,
+        #                 -weights_reshaped * (y_true / y_pred) - self.lambda_reg)
+        grad = -weights_reshaped * (y_true / np.maximum(y_pred, 1e-7))  # Prevent division by zero
+        print(len(grad))
+        # Add regularization effect
+        grad += np.where(y_pred < weights_reshaped, self.lambda_reg, -self.lambda_reg)
         return grad
 
     def _calculate_hessian(self, y_true, y_pred):
-        # Simplified hessian calculation
-        hess = np.ones_like(y_pred)
+        # hess = self.weights * y_true / (y_pred ** 2)
+        hess = y_pred * (1 - y_pred)
         return hess
-
