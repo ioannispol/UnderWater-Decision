@@ -46,7 +46,7 @@ class MFLoss:
 
 
 class MFLossObjective(MFLoss):
-   """
+    """
     Adapter for MFLoss to be used as an objective in XGBoost training.
     """
     def __init__(self, weights, lambda_reg):

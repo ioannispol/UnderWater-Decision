@@ -28,7 +28,7 @@ setup(
         ]
     },
     packages=find_packages(
-        include=['underwater_unet', 'underwater_unet*'],
+        include=['underwater_decision', 'underwater_decision*'],
         exclude=['tests', 'tests.*', 'notebooks']
     ),
 )
